@@ -1,0 +1,47 @@
+/*
+committee.css
+LeedsXR (c) 2020
+All Rights Reserved
+*/
+
+div#content{
+    height: unset;
+    min-height: calc(100vh - 71px);
+}
+div#com{
+    width: 90%;
+    max-width: 160vh;
+    margin: 10px auto;
+    border: 4px solid #3a3f46;
+	border-radius: 5px;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+h1{
+    padding-left: 10px;
+}
+
+div.member{
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+div.member img{
+    float: left;
+    width: 10%;
+    border-radius: 50%;
+    margin: 15px 15px 0 0;
+}
+
+div.member a{
+    display: block;
+}
+div.member a.name{
+    font-size: 2em;
+}
+div.member a.role{
+    font-size: 1.3em;
+    font-weight: 700;
+}

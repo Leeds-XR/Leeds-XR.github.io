@@ -1,0 +1,477 @@
+/*
+styles.css
+LeedsXR (c) 2020
+All Rights Reserved
+*/
+
+/*Global*/
+body{
+    margin: 0;
+	overflow-x: hidden;
+	width:  100%;
+    background-color: #258390;
+}
+
+/*header*/
+div#header{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: #2c6a67;
+    box-shadow: 0 2px #3a3f46;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    color: white;
+    max-height: 2.2em;
+}
+div#header img{
+	height: 1.4em;
+	float:  left;
+	display: inline-block;
+}
+div#header a{
+	text-decoration: none;
+}
+a#h-txt{
+	font-family: 'Quicksand', sans-serif;
+	margin: 0px;
+	font-size: 1.7em;
+	color: white;
+}
+div#links{
+	display: inline-block;
+	float: right;
+}
+a.link{
+    float: right;
+    color: white;
+    margin: 10px 20px;
+    transition: color 0.2s ease-out;
+}
+a#home-link{
+	display: none;
+}
+a.link:hover{
+    color: #000000;
+}
+
+/*footer*/
+div#footer{
+	font-family: 'Arial';
+	background-color: #14524f;
+	padding: 4px 10px;
+	font-size: 1em;
+	color: white;
+}
+a.f-link{
+	margin: 10px;
+    color: white;
+}
+
+/*body content*/
+div#content{
+	height: 1200px;
+}
+
+/*social box*/
+div#social{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin: 10px;
+	border: 4px solid #3a3f46;
+	text-align: center;
+	border-radius: 5px;
+	background-color: white;
+	height: 97%;
+}
+img#logo-img{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+a#s-txt{
+	font-size: 3em;
+	font-family: 'Quicksand', sans-serif;
+	display: block;
+	margin: 0;
+}
+a#s-txt-2{
+	font-size: 1.3em;
+	font-family: 'Quicksand', sans-serif;
+}
+div.social{
+	text-align: left;
+    width: 100%;
+    height: 3em;
+    margin: 20px 10px;
+    cursor: pointer;
+    color: #474c52;
+}
+div.social:hover{
+	color: black;
+}
+div.social img{
+	height: 100%;
+	display: inline-block;
+}
+div.social a{
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'Open Sans';
+    position: relative;
+    bottom: 1em;
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	margin: 5px 10px;
+	font-size: 2.5em;
+	border-bottom: 1px solid #3a3f46;
+}
+
+/*events*/
+div#events{
+	font-family: 'Quicksand', sans-serif;
+	display: inline-block;
+	float: left;
+	height: 43%;
+	background-color: white;
+	width: calc(55% - 84px);
+	border: 4px solid #3a3f46;
+	margin: 10px;
+}
+
+div#events p{
+	padding: 0 5px;
+	margin: 5px 0;
+	max-height: 122px;
+	overflow: hidden;
+	text-overflow: ellipsis
+	width: calc(100%);
+}
+
+div#events h2{
+	margin: 5px;
+}
+div#events a{
+	display: block;
+}
+
+div#events div:hover{
+	cursor: pointer;
+}
+
+div#event-1{
+	width: calc(100% - 44px);
+	height: 225px;
+	border: 2px solid #3a3f46;
+	margin: 10px 20px;
+	padding: 0 0 0 5px;
+}
+
+div#event-2{
+	display: inline-block;
+	width: calc(75% - 44px);
+	height: 200px;
+	border: 2px solid #3a3f46;
+	margin: 0px 0 0 20px;
+	padding: 0 0 0 5px;
+}
+div#event-2 p{
+	max-height: 100px;
+}
+div#event-etc{
+	display: inline-block;
+	float: right;
+	width: calc(25% - 26px);
+	height: 188px;
+	border: 2px solid #3a3f46;
+	margin: 0px 20px 0px 5px;
+	padding: 6px;
+}
+div#event-etc p{
+	margin: 0;
+	font-size: 1.6em;
+}
+a#e-1-organisation, a#e-2-organisation{
+    font-weight: 600;
+}
+
+/*committee*/
+div#committee{
+	width: 25%;
+	display: inline-block;
+	float: right;
+    height: 97%;
+	background-color: white;
+	border: 4px solid #3a3f46;
+	margin: 10px;
+	overflow-y: auto;
+}
+
+div.c-member{
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+div.c-member a{
+	display: block;
+	margin-left: 5px;
+}
+a.c-name{
+	font-size: 1.7em;
+	margin: 0;
+}
+a.c-role{
+	font-size: 1.2em;
+	margin: 0;
+	font-weight: 700;
+}
+a.c-email{
+	font-size: 0.9em;
+}
+div.c-member div{
+	display: inline-block;
+}
+div.c-member img.c-photo{
+	float: left;
+	display: inline-block;
+	width: 15%;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+
+/*showcase*/
+div#showcase{
+	width: calc(55% - 84px);
+	height: calc(54% - 28px);
+	background-color: white;
+	border: 4px solid #3a3f46;
+	margin: 10px;
+	float: left;
+	overflow-y: auto;
+}
+
+div.showcase{
+	margin: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+div.showcase img{
+	border-radius: 5%;
+	border: 1px solid black;
+	width: calc(15% - 2px);
+	display: inline-block;
+	float: left;
+}
+
+div.showcase div{
+	display: inline-block;
+	width: 85%;
+}
+
+div.showcase a{
+	font-family: 'Quicksand', sans-serif;
+	display: block;
+}
+a.s-title{
+	font-size: 2em;
+	margin: 0 10px;
+}
+a.s-author{
+    margin: 0 15px;
+}
+p.s-desc{
+	font-family: 'Quicksand', sans-serif;
+	margin: 5px 10px;
+}
+
+/*Small Laptop*/
+@media only screen and (max-width: 1400px){
+	div#content{
+		height: 2000px;
+	}
+	div#social{
+		height: 40%;
+		width: 30%;
+		margin: 5px;
+	}
+	div#events{
+		width: calc(70% - 36px);
+		height: 40%;
+		margin: 5px;
+	}
+	div#event-1{
+        height: 380px
+	}
+	div#event-1{
+		font-size: 
+	}
+	div#event-1 p{
+		max-height: 280px;
+	}
+	div#event-2{
+		height: 320px;
+	}
+	div#event-2 p{
+		max-height: 200px;
+	}
+	div#event-etc{
+        height: 308px;
+    }
+	
+	div#committee{
+		height: 57%;
+		width: 40%;
+		margin: 5px;
+	}
+	div#showcase{
+		width: calc(60% - 36px);
+		height: 57%;
+		margin: 5px;
+	}
+}
+
+/*Even Smaller Laptop*/
+@media only screen and (max-width: 900px){
+    div#committee{
+		height: 47%;
+		width: 60%;
+		margin: 5px;
+	}
+	div#showcase{
+		width: calc(40% - 36px);
+	}
+}
+
+
+
+/*
+Phones
+*/
+@media only screen and (max-width: 450px){
+    div#header{
+    	position: fixed;
+		left: 0;
+		top: 0;
+    }
+    div#links{
+    	display: block;
+        position: fixed;
+        top: 36px;
+    	background-color: #0c3735;
+    	width: 100%;
+    	height: 0;
+    	overflow: hidden;
+    }
+	a.link{
+		display: block;
+		float: none;
+	}
+	div.header{
+		text-align: center;
+	}
+	a#home-link{
+		display: inherit;
+	}
+	div#content{
+		height: unset;
+		padding-top: 40px;
+	}
+	div#social, div#events, div#showcase, div#committee{
+		width: calc(100% - 18px);
+		height: unset;
+		float: unset;
+	}
+    div#event-1{
+        margin: 5px;
+        width: calc(100% - 18px);
+    }
+    div#event-2{
+    	margin: 5px;
+    	width: 50%
+    }
+    div#event-2 p {
+        max-height: 160px;
+    }
+    div#event-etc{
+    	margin: 5px;
+    	width: calc(50% - 45px);
+    	font-size: 0.8em;
+    }
+
+    div#committee{
+        max-height: 400px;
+    }
+    div#showcase{
+    	max-height: 600px;
+    }
+}
+
+@media only screen and (max-width: 374px){
+	a.c-name{
+		font-size: 1.2em
+	}
+	a.c-role{
+		font-size: 1em;
+	}
+	a.c-email{
+		font-size: 0.7em;
+	}
+}
+
+@media only screen and (max-width: 319px){
+	h1{
+        font-size: 2em
+    }
+    h2{
+        font-size: 1em
+    }
+    div.c-member{
+    	margin: 2px;
+    }
+    a.c-name{
+		font-size: 1em
+	}
+	a.c-role{
+		font-size: 0.8em;
+	}
+    a.c-email{
+    	font-size: 0.6em;
+    }
+    
+    a.s-title{
+    	font-size: 1.3em;
+    	margin: 0 5px;
+    }
+    a.s-author{
+    	font-size: 1em;
+    	margin: 0 10px;
+    }
+    p.s-desc{
+    	font-size: 0.8em;
+    	margin: 0 2px;
+    }
+
+    div#footer{
+    	font-size: 0.8em
+    }
+}
+
+/*
+Tablets
+*/
+@media only screen and (min-height: 1000px){
+	
+}
+
+@media only screen and (min-height: 1000px) and (max-width: 800px){
+    
+}

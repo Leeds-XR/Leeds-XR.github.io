@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Leeds Extended Reality Society</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="LeedsXR Society Website"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Volkhov:wght@700&display=swap&family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+    </head>
+    <body>
+        <div id="header">
+            <a title="LeedsXR" href="index.html" id="h-txt"><img id="bar-img" src="img/headset.png"/>LeedsXR Society</a>
+            <div id="links">
+                <a id="home-link" title="Home" href="index.html" class="link">Home</a>
+                <a title="Committee" href="committee.html" class="link">Committee</a>
+                <a title="Events" href="events.html" class="link">Events</a>
+                <a title="Showcase" href="showcase.html" class="link">Showcase</a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="social">
+                <img id="logo-img" src="img/logo.png"/>
+                <a id="s-txt">LeedsXR</a>
+                <a id="s-txt-2">Check Us Out on Social Media</a>
+
+                <div onclick="window.open('https://www.facebook.com/leedsxrsociety/')" title="Facebook" class="social">
+                    <img src="img/facebook_logo.png"/>
+                    <a>/LeedsXRSociety</a>
+                </div>
+
+                <div onclick="window.open('https://www.linkedin.com/company/leedsxrsociety/')" title="Linkedin" class="social">
+                    <img src="img/linkedin_logo.png"/>
+                    <a>/LeedsXRSociety</a>
+                </div>
+
+                <div onclick="window.open('https://twitter.com/LeedsXRSociety')" title="Twitter" class="social">
+                    <img src="img/twitter_logo.png"/>
+                    <a>/LeedsXRSociety</a>
+                </div>
+
+            </div>
+            <div id="events">
+                <h1>Events</h1>
+                <div id="event-1" onclick="location.href = 'events.html'">
+                    <h2 id="e-1-title"></h2>
+                    <a id="e-1-date"></a>
+                    <a id="e-1-organisation"></a>
+                    <p id="e-1-p"></p>
+                </div>
+                <div id="event-2" onclick="location.href = 'events.html'">
+                    <h2 id="e-2-title"></h2>
+                    <a id="e-2-date"></a>
+                    <a id="e-2-organisation"></a>
+                    <p id="e-2-p"></p>
+                </div>
+                <div id="event-etc" title="Events" onclick="location.href = 'events.html'">
+                    <p>See All Our Events...</p>
+                </div>
+            </div>
+            <div id="committee">
+                <h1>Committee</h1>
+                <div id="members"></div>
+            </div>
+            <div id="showcase">
+                <h1>Showcase</h1>
+                <div id="showcases"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <a style="margin-left: 10px">LeedsXR © 2020 | All Rights Reserved</a>
+            <div style="display: inline-block">
+                <a href="index.html" class="f-link">Home</a> |
+                <a href="events.html" class="f-link">Events</a> |
+                <a href="committee.html" class="f-link">Committee</a> |
+                <a href="showcase.html" class="f-link">Showcase</a>
+            </div>
+        </div>
+        
+        <script src="js/topnav.js"></script>
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
