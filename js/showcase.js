@@ -40,7 +40,7 @@ function updateShowcases(xml){
         
         var url = value(x[i], 'url');
 		cont.addEventListener('click', function(){
-			location.href = url;
+			window.open(url)
 		}, false);
 
 		cont.appendChild(title);

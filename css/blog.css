@@ -1,5 +1,5 @@
 /*
-events.css
+blog.css
 LeedsXR (c) 2020
 All Rights Reserved
 */
@@ -9,7 +9,7 @@ div#content{
     height: unset;
     min-height: calc(100vh - 71px);
 }
-div#evt{
+div#bl{
     width: 90%;
     max-width: 160vh;
     margin: 10px auto;
@@ -23,23 +23,23 @@ h1{
     padding-left: 10px;
 }
 
-div.event{
+div.post{
     font-family: 'Quicksand', sans-serif;
     padding: 0 15px;
     margin: 20px 0;
 }
 
-div.event h2{
+div.post h2{
     border-bottom: 1px solid black;
     padding-left: 10px;
     margin-bottom: 5px;
 }
-div.event a{
+div.post a{
 	display: block;
 }
-div.event a.org{
+div.post a.author{
 	font-weight: 700;
 }
-div.event p{
+div.post p{
 	margin: 2px 10px;
 }

@@ -98,6 +98,18 @@ a#s-txt{
 	display: block;
 	margin: 0;
 }
+a#mission{
+	font-size: 1.7em;
+	font-family: 'Quicksand', sans-serif;
+}
+p#statement{
+	font-size: 1.1em;
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	padding: 10px;
+	text-align: inherit;
+	font-weight: 700;
+}
 a#s-txt-2{
 	font-size: 1.3em;
 	font-family: 'Quicksand', sans-serif;
@@ -133,8 +145,8 @@ h1{
 	border-bottom: 1px solid #3a3f46;
 }
 
-/*events*/
-div#events{
+/*blog*/
+div#blog{
 	font-family: 'Quicksand', sans-serif;
 	display: inline-block;
 	float: left;
@@ -145,7 +157,7 @@ div#events{
 	margin: 10px;
 }
 
-div#events p{
+div#blog p{
 	padding: 0 5px;
 	margin: 5px 0;
 	max-height: 122px;
@@ -154,18 +166,18 @@ div#events p{
 	width: calc(100%);
 }
 
-div#events h2{
+div#blog h2{
 	margin: 5px;
 }
-div#events a{
+div#blog a{
 	display: block;
 }
 
-div#events div:hover{
+div#blog div:hover{
 	cursor: pointer;
 }
 
-div#event-1{
+div#post-1{
 	width: calc(100% - 44px);
 	height: 225px;
 	border: 2px solid #3a3f46;
@@ -173,7 +185,7 @@ div#event-1{
 	padding: 0 0 0 5px;
 }
 
-div#event-2{
+div#post-2{
 	display: inline-block;
 	width: calc(75% - 44px);
 	height: 200px;
@@ -181,23 +193,23 @@ div#event-2{
 	margin: 0px 0 0 20px;
 	padding: 0 0 0 5px;
 }
-div#event-2 p{
+div#post-2 p{
 	max-height: 100px;
 }
-div#event-etc{
+div#post-etc{
 	display: inline-block;
 	float: right;
 	width: calc(25% - 26px);
 	height: 188px;
 	border: 2px solid #3a3f46;
-	margin: 0px 20px 0px 5px;
+	margin: 0 20px 0px 5px;
 	padding: 6px;
 }
-div#event-etc p{
+div#post-etc p{
 	margin: 0;
 	font-size: 1.6em;
 }
-a#e-1-organisation, a#e-2-organisation{
+a#p-1-author, a#p-2-author{
     font-weight: 600;
 }
 
@@ -221,7 +233,7 @@ div.c-member{
 }
 div.c-member a{
 	display: block;
-	margin-left: 5px;
+	margin-left: 8px;
 }
 a.c-name{
 	font-size: 1.7em;
@@ -303,27 +315,27 @@ p.s-desc{
 		width: 30%;
 		margin: 5px;
 	}
-	div#events{
+	div#blog{
 		width: calc(70% - 36px);
 		height: 40%;
 		margin: 5px;
 	}
-	div#event-1{
+	div#post-1{
         height: 380px
 	}
-	div#event-1{
+	div#post-1{
 		font-size: 
 	}
-	div#event-1 p{
+	div#post-1 p{
 		max-height: 280px;
 	}
-	div#event-2{
+	div#post-2{
 		height: 320px;
 	}
-	div#event-2 p{
+	div#post-2 p{
 		max-height: 200px;
 	}
-	div#event-etc{
+	div#post-etc{
         height: 308px;
     }
 	
@@ -385,23 +397,23 @@ Phones
 		height: unset;
 		padding-top: 40px;
 	}
-	div#social, div#events, div#showcase, div#committee{
+	div#social, div#blog, div#showcase, div#committee{
 		width: calc(100% - 18px);
 		height: unset;
 		float: unset;
 	}
-    div#event-1{
+    div#post-1{
         margin: 5px;
         width: calc(100% - 18px);
     }
-    div#event-2{
+    div#post-2{
     	margin: 5px;
     	width: 50%
     }
-    div#event-2 p {
+    div#post-2 p {
         max-height: 160px;
     }
-    div#event-etc{
+    div#post-etc{
     	margin: 5px;
     	width: calc(50% - 45px);
     	font-size: 0.8em;

@@ -5,40 +5,40 @@ All Rights Reserved
 */
 
 window.onload = function(){
-    loadEvents();
+    loadBlog();
     loadCommittee();
     loadShowcases();
 }
 
-function loadEvents(){
+function loadBlog(){
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       updateEvents(this);
     }
   };
-  xhttp.open("GET", "data/events.xml", true);
+  xhttp.open("GET", "data/blog.xml", true);
   xhttp.send();
 }
 
 function updateEvents(xml){
   var xmlDoc = xml.responseXML;
-  var x = xmlDoc.getElementsByTagName("event");
+  var x = xmlDoc.getElementsByTagName("post");
   
   if(x[0]){
-      document.getElementById('event-1').title = value(x[0], 'title');
-      document.getElementById('e-1-title').innerHTML = value(x[0], 'title');
-      document.getElementById('e-1-date').innerHTML = value(x[0], 'date');
-      document.getElementById('e-1-organisation').innerHTML = value(x[0], 'organisation');
-      document.getElementById('e-1-p').innerHTML = value(x[0], 'description');
+      document.getElementById('post-1').title = value(x[0], 'title');
+      document.getElementById('p-1-title').innerHTML = value(x[0], 'title');
+      document.getElementById('p-1-date').innerHTML = value(x[0], 'date');
+      document.getElementById('p-1-author').innerHTML = value(x[0], 'author');
+      document.getElementById('p-1-p').innerHTML = value(x[0], 'description');
   }
     
   if(x[1]){
-      document.getElementById('event-2').title = value(x[1], 'title');
-      document.getElementById('e-2-title').innerHTML = value(x[1], 'title');
-      document.getElementById('e-2-date').innerHTML = value(x[1], 'date');
-      document.getElementById('e-2-organisation').innerHTML = value(x[1], 'organisation');
-      document.getElementById('e-2-p').innerHTML = value(x[1], 'description');
+      document.getElementById('post-2').title = value(x[1], 'title');
+      document.getElementById('p-2-title').innerHTML = value(x[1], 'title');
+      document.getElementById('p-2-date').innerHTML = value(x[1], 'date');
+      document.getElementById('p-2-author').innerHTML = value(x[1], 'author');
+      document.getElementById('p-2-p').innerHTML = value(x[1], 'description');
   }
 }
 
@@ -124,7 +124,7 @@ function updateShowcases(xml){
         
         var url = value(x[i], 'url');
 		cont.addEventListener('click', function(){
-			location.href = url;
+			window.open(url)
 		}, false);
 
 		cont.appendChild(title);

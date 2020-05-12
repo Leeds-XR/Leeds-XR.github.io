@@ -1,25 +1,25 @@
 /*
-events.js
+blog.js
 LeedsXR (c) 2020
 All Rights Reserved
 */
 
-window.onload = loadEvents;
+window.onload = loadBlog;
 
-function loadEvents(){
+function loadBlog(){
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      updateEvents(this);
+      updateBlog(this);
     }
   };
-  xhttp.open("GET", "data/events.xml", true);
+  xhttp.open("GET", "data/blog.xml", true);
   xhttp.send();
 }
 
-function updateEvents(xml){
+function updateBlog(xml){
   var xmlDoc = xml.responseXML;
-  var x = xmlDoc.getElementsByTagName("event");
+  var x = xmlDoc.getElementsByTagName("post");
   
   for(var i = 0; i < x.length; i++){
     var cont = document.createElement('div');
@@ -28,9 +28,9 @@ function updateEvents(xml){
     title.innerHTML = value(x[i], 'title');
     title.className = "title";
 
-    var organisation = document.createElement('a');
-    organisation.innerHTML = value(x[i], 'organisation');
-    organisation.className = "org";
+    var author = document.createElement('a');
+    author.innerHTML = value(x[i], 'author');
+    author.className = "author";
 
     var date = document.createElement('a');
     date.innerHTML = value(x[i], 'date');
@@ -40,13 +40,13 @@ function updateEvents(xml){
     desc.innerHTML = value(x[i],'description');
     desc.className = 'desc';
 
-    cont.className = "event";
+    cont.className = "post";
 
     cont.appendChild(title);
     cont.appendChild(date);
-    cont.appendChild(organisation);
+    cont.appendChild(author);
     cont.appendChild(desc);
 
-    document.getElementById('evts').appendChild(cont);
+    document.getElementById('posts').appendChild(cont);
   }
 }

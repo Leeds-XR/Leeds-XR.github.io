@@ -32,8 +32,8 @@ window.onresize = function(){
 }
 
 function value(ele, tag){
-	if(ele == undefined) return null;
+	if(ele == undefined) return "";
 	var tag_ele = ele.getElementsByTagName(tag)[0];
-	if(tag_ele && tag_ele.childNodes[0]) return tag_ele.childNodes[0].nodeValue||null;
-	else return null;
+	if(tag_ele && tag_ele.childNodes[0]) return tag_ele.childNodes[0].nodeValue||"";
+	else return "";
 }

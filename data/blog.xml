@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<events>
-    <event>
+<blog>
+    <post>
         <title>XR Immersive Enterprise 2020</title>
         <date>5-7 May 2020</date>
         <description>
@@ -12,14 +12,14 @@ Right now as we speak there is a Live panel with some big names involved.
 
 There's so much for you to explore so go check it out!
         </description>
-        <organisation></organisation>
-    </event>
-    <event>
+        <author></author>
+    </post>
+    <post>
         <title>Immerse UK Webinar</title>
         <date>15th May 2020 13:30-14:30 BST</date>
         <description>
 A webinar by Immerse UK that aims to emphasise the importance of cross-disciplinary collaboration between arts and science. To explore how VR can be a valuable tool in anxiety management, and to share theoretical and practical considerations for using biofeedback in VR
         </description>
-        <organisation>Immerse UK</organisation>
-    </event>
-</events>
+        <author>Immerse UK</author>
+    </post>
+</blog>
