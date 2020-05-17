@@ -5,7 +5,7 @@ All Rights Reserved
 */
 
 div#content{
-    height: unset;
+    height: auto;
     min-height: calc(100vh - 71px);
 }
 div#com{
