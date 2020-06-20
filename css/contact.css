@@ -1,0 +1,54 @@
+/*
+contact.css
+Leeds XR (c) 2020
+All Rights Reserved
+*/
+
+div#content{
+    text-align: center;
+    padding: 150px 20px 0;
+    font-family: 'Montserrat';
+}
+div#content h1{
+    font-size: 3em;
+    margin: 10px;
+}
+div#cont{
+    padding: 0 2vw 10px;
+    border-bottom: 1px solid black;
+}
+
+form#contact{
+    text-align: left;
+    padding-bottom: 50px;
+    max-width: 150vh;
+    margin: auto;
+}
+textarea{
+    height: 250px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #b4b4b4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #4b4b4b;
+}

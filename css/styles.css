@@ -9,474 +9,262 @@ body{
     margin: 0;
 	overflow-x: hidden;
 	width:  100%;
-    background-color: #258390;
+    background-color: #ffffff;
 }
 
 /*header*/
 div#header{
+	z-index: 2;
     width: 100%;
-    position:  fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
     margin: 0;
     margin-bottom: 5px;
     overflow: hidden;
-    background-color: #2c6a67;
-    box-shadow: 0 2px #3a3f46;
-    font-family: 'Open Sans';
     font-size: 1em;
-    color: white;
-    max-height: 2.2em;
+    color: black;
+    height: 150px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    transition: background-color 0.4s;
 }
-div#header img{
-	height: 1.4em;
-	float:  left;
-	display: inline-block;
+div#header.transparent{
+	background-color: transparent;
 }
-div#header a{
-	text-decoration: none;
+div#header.colored{
+	background-color: white;
 }
-a#h-txt{
-	font-family: 'Quicksand', sans-serif;
-	margin: 0px;
-	font-size: 1.7em;
-	color: white;
+
+div#topnav-logo-cont{
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 50%;
+	text-align: center;
+	font-size: 1.5em;
+	cursor: pointer;
 }
-div#links{
+div#topnav-logo-cont img{
+	height: 100%;
+}
+div#topnav-links{
 	display: inline-block;
 	float: right;
+	position: relative;
+	bottom: 32px;
+	transition: height 0.4s;
 }
-a.link{
-    float: right;
-    color: white;
-    margin: 10px 20px;
-    transition: color 0.2s ease-out;
+div#topnav-links a{
+    color: #343434;
+    text-decoration: none;
+    margin: 20px;
 }
-a#home-link{
-	display: none;
-}
-a.link:hover{
-    color: #000000;
-}
-
-/*footer*/
-div#footer{
-	font-family: 'Arial';
-	background-color: #14524f;
-	padding: 4px 10px;
-	font-size: 1em;
-	color: white;
-}
-a.f-link{
-	margin: 10px;
-    color: white;
-}
-
-/*body content*/
-div#content{
-	height: 1200px;
-	padding-top: 36px;
-}
-
-/*social box*/
-div#social{
-	display: inline-block;
-	float: left;
-	width: 20%;
-	margin: 10px;
-	border: 4px solid #3a3f46;
-	text-align: center;
-	border-radius: 5px;
-	background-color: white;
-	height: 97%;
-}
-img#logo-img{
-    width: 70%;
-    height: auto;
-    display: block;
-    margin: 30px auto;
-}
-a#s-txt{
-	font-size: 3em;
-	font-family: 'Quicksand', sans-serif;
-	display: block;
-	margin: 0;
-}
-a#mission{
-	font-size: 1.7em;
-	font-family: 'Quicksand', sans-serif;
-}
-p#statement{
-	font-size: 1.1em;
-	font-family: 'Quicksand', sans-serif;
-	margin: 0;
-	padding: 10px;
-	text-align: inherit;
-	font-weight: 700;
-}
-a#s-txt-2{
-	font-size: 1.3em;
-	font-family: 'Quicksand', sans-serif;
-}
-div.social{
-	text-align: left;
-    width: 100%;
-    height: 3em;
-    margin: 20px 10px;
-    cursor: pointer;
-    color: #474c52;
-}
-div.social:hover{
+div#topnav-links a:hover{
 	color: black;
 }
-div.social img{
-	height: 100%;
-	display: inline-block;
-}
-div.social a{
-    display: inline-block;
-    font-size: 1em;
-    font-family: 'Open Sans';
-    position: relative;
-    bottom: 1em;
+
+#bar {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+  margin: 20px;
+  position: relative;
+  bottom: 60px;
+  display: none;
 }
 
-h1{
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 500;
-	margin: 5px 10px;
-	font-size: 2.5em;
-	border-bottom: 1px solid #3a3f46;
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/*intro*/
+div#intro{
+	background-image: url('/img/intro2.jpg');
+	background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+	width: 100vw;
+	height: calc(100vh - 200px);
+
+	padding: 300px 0 0 20px;
+	font-family: 'Quicksand';
+	color: black;
+}
+div#intro h1{
+    margin-bottom: 0;
+    font-size: 2.5em;
+    font-family: 'Montserrat';
+}
+div#intro h2{
+	margin-bottom: 0;
+	font-size: 2em;
+	font-family: 'Montserrat';
+}
+div#intro p{
+	margin-top: 2px;
+	margin-left: 10px;
+	max-width: 50%;
+	font-size: 1.5em;
+}
+
+div#social-media{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+}
+div#social-media div{
+	width: 8%;
+	min-width: 60px;
+	margin: 5px 20px;
+	display: inline-block;
+	cursor: pointer;
+}
+div#social-media img{
+	width: 100%;
+}
+
+/*content*/
+div.content{
+	margin: 1vw 3.5vw;
 }
 
 /*blog*/
 div#blog{
-	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-size: 1.5em;
+	border-bottom: 1px solid black;
+}
+div#blog div.blog{
 	display: inline-block;
-	float: left;
-	height: 43%;
-	background-color: white;
-	width: calc(55% - 84px);
-	border: 4px solid #3a3f46;
-	margin: 10px;
-}
-
-div#blog p{
-	padding: 0 5px;
-	margin: 5px 0;
-	max-height: 122px;
-	overflow: hidden;
-	text-overflow: ellipsis
-	width: calc(100%);
-}
-
-div#blog h2{
-	margin: 5px;
+	width: 43vw;
+	margin: 1vw;
+	height: 25vw;
+	background-color: #eee;
 }
 div#blog a{
+	text-decoration: none;
+	color: black;
+}
+div#blog a:hover{
+	color: #434343;
+}
+
+/*footer*/
+div#footer{
+	text-align: center;
+	font-family: 'Montserrat';
+	height: 40px;
+	margin-top: 20px;
+}
+div#footer div{
 	display: block;
-}
-
-div#blog div:hover{
-	cursor: pointer;
-}
-
-div#post-1{
-	width: calc(100% - 44px);
-	height: 225px;
-	border: 2px solid #3a3f46;
 	margin: 10px 20px;
-	padding: 0 0 0 5px;
 }
-
-div#post-2{
-	display: inline-block;
-	width: calc(75% - 44px);
-	height: 200px;
-	border: 2px solid #3a3f46;
-	margin: 0px 0 0 20px;
-	padding: 0 0 0 5px;
+a.f-link{
+	margin: 15px;
+	color: #494949;
 }
-div#post-2 p{
-	max-height: 100px;
-}
-div#post-etc{
-	display: inline-block;
-	float: right;
-	width: calc(25% - 26px);
-	height: 188px;
-	border: 2px solid #3a3f46;
-	margin: 0 20px 0px 5px;
-	padding: 6px;
-}
-div#post-etc p{
-	margin: 0;
-	font-size: 1.6em;
-}
-a#p-1-author, a#p-2-author{
-    font-weight: 600;
-}
-
-/*committee*/
-div#committee{
-	width: 25%;
-	display: inline-block;
-	float: right;
-    height: 97%;
-	background-color: white;
-	border: 4px solid #3a3f46;
-	margin: 10px;
-	overflow-y: auto;
-}
-
-div.c-member{
-    font-family: 'Quicksand', sans-serif;
-    margin: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
-}
-div.c-member a{
-	display: block;
-	margin-left: 8px;
-}
-a.c-name{
-	font-size: 1.7em;
-	margin: 0;
-}
-a.c-role{
-	font-size: 1.2em;
-	margin: 0;
-	font-weight: 700;
-}
-a.c-email{
-	font-size: 0.9em;
-}
-div.c-member div{
-	display: inline-block;
-}
-div.c-member img.c-photo{
-	float: left;
-	display: inline-block;
-	width: 15%;
-	border-radius: 50%;
-	margin-left: 5px;
-}
-
-/*showcase*/
-div#showcase{
-	width: calc(55% - 84px);
-	height: calc(54% - 28px);
-	background-color: white;
-	border: 4px solid #3a3f46;
-	margin: 10px;
-	float: left;
-	overflow-y: auto;
-}
-
-div.showcase{
-	margin: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid black;
-	cursor: pointer;
-}
-
-div.showcase img{
-	border-radius: 5%;
-	border: 1px solid black;
-	width: calc(15% - 2px);
-	display: inline-block;
-	float: left;
-}
-
-div.showcase div{
-	display: inline-block;
-	width: 85%;
-}
-
-div.showcase a{
-	font-family: 'Quicksand', sans-serif;
-	display: block;
-}
-a.s-title{
-	font-size: 2em;
-	margin: 0 10px;
-}
-a.s-author{
-    margin: 0 15px;
-}
-p.s-desc{
-	font-family: 'Quicksand', sans-serif;
-	margin: 5px 10px;
+a.f-link:hover{
+	color: black;
 }
 
 /*Small Laptop*/
-@media only screen and (max-width: 1400px){
-	div#content{
-		height: 2000px;
-	}
-	div#social{
-		height: 40%;
-		width: 30%;
-		margin: 5px;
-	}
-	div#blog{
-		width: calc(70% - 36px);
-		height: 40%;
-		margin: 5px;
-	}
-	div#post-1{
-        height: 380px
-	}
-	div#post-1{
-		font-size: 
-	}
-	div#post-1 p{
-		max-height: 280px;
-	}
-	div#post-2{
-		height: 320px;
-	}
-	div#post-2 p{
-		max-height: 200px;
-	}
-	div#post-etc{
-        height: 308px;
+@media only screen and (max-width: 800px){
+    div#blog div.blog{
+    	width: 100%;
+    	height: 55vw
     }
-	
-	div#committee{
-		height: 57%;
-		width: 40%;
-		margin: 5px;
+    div#topnav-links{
+    	display: block;
+        position: fixed;
+        top: 150px;
+    	background-color: #3b3b3b;
+    	width: 100%;
+    	height: 0;
+    	overflow: hidden;
+    	text-align: center;
+    	font-size: 1.5em;
+    }
+    div#topnav-links a{
+		display: block;
+		color: white;
 	}
-	div#showcase{
-		width: calc(60% - 36px);
-		height: 57%;
-		margin: 5px;
-	}
-}
+	div#topnav-links a:hover{
+        color: #c5c5c5;
+    }
 
-/*Even Smaller Laptop*/
-@media only screen and (max-width: 900px){
-    div#committee{
-		height: 57%;
-		width: 60%;
-		margin: 5px;
+	img#bar{
+		display: inline-block;
+		float: right;
+		height: 70%;
+		position: relative;
+        bottom: 70px
 	}
-	div#showcase{
-		width: calc(40% - 36px);
-	}
-}
 
+	div#intro{
+		padding-top: 200px;
+		height: calc(100vh - 100px);
+	}
+	div#intro h1{
+        max-width: 70%;
+	}
+	div#social-media{
+        width: 70%;
+    }
+    div#social-media div{
+    	margin: 0 20px;
+    	min-width: 60px
+    }
+}
 
 
 /*
 Phones
 */
 @media only screen and (max-width: 450px){
-    div#header{
-    	position: fixed;
-		left: 0;
-		top: 0;
+    div#intro{
+        padding-top: 150px;
+        height: 100vh;
     }
-    div#links{
-    	display: block;
-        position: fixed;
-        top: 36px;
-    	background-color: #0c3735;
-    	width: 100%;
-    	height: 0;
-    	overflow: hidden;
+    div#intro h1{
+    	max-width: 100%;
     }
-	a.link{
-		display: block;
-		float: none;
-	}
-	div.header{
-		text-align: center;
-	}
-	a#home-link{
-		display: inherit;
-	}
-	div#content{
-		height: unset;
-		padding-top: 40px;
-	}
-	div#social, div#blog, div#showcase, div#committee{
-		width: calc(100% - 18px);
-		height: unset;
-		float: unset;
-	}
-    div#post-1{
-        margin: 5px;
-        width: calc(100% - 18px);
+    div#intro p{
+    	max-width: 60%;
     }
-    div#post-2{
-    	margin: 5px;
-    	width: 50%
+    div#social-media{
+        width: 70%;
     }
-    div#post-2 p {
-        max-height: 160px;
-    }
-    div#post-etc{
-    	margin: 5px;
-    	width: calc(50% - 45px);
-    	font-size: 0.8em;
-    }
-
-    div#committee{
-        max-height: 800px;
-    }
-    div#showcase{
-    	max-height: 600px;
+    div#social-media div{
+    	margin: 0 10px;
+    	min-width: 60px
     }
 }
 
 @media only screen and (max-width: 374px){
-	a.c-name{
-		font-size: 1.2em
-	}
-	a.c-role{
-		font-size: 1em;
-	}
-	a.c-email{
-		font-size: 0.7em;
-	}
+	
 }
 
 @media only screen and (max-width: 319px){
-	h1{
-        font-size: 2em
-    }
-    h2{
-        font-size: 1em
-    }
-    div.c-member{
-    	margin: 2px;
-    }
-    a.c-name{
-		font-size: 1em
-	}
-	a.c-role{
-		font-size: 0.8em;
-	}
-    a.c-email{
-    	font-size: 0.6em;
-    }
-    
-    a.s-title{
-    	font-size: 1.3em;
-    	margin: 0 5px;
-    }
-    a.s-author{
-    	font-size: 1em;
-    	margin: 0 10px;
-    }
-    p.s-desc{
-    	font-size: 0.8em;
-    	margin: 0 2px;
-    }
-
-    div#footer{
-    	font-size: 0.8em
-    }
+	
 }
 
 /*

@@ -1,9 +1,8 @@
 /*
-blog.css
-LeedsXR (c) 2020
+portfolio.css
+Leeds XR (c) 2020
 All Rights Reserved
 */
-
 
 div#content{
     text-align: center;
@@ -14,11 +13,11 @@ div#content h1{
     font-size: 3em;
     margin: 10px;
 }
-div#blog{
+div#portfolio{
     padding: 0 2vw 10px;
     border-bottom: 1px solid black;
 }
-div.post{
+div.portfolio{
     display: inline-block;
     width: 28vw;
     margin: 0.5vw;

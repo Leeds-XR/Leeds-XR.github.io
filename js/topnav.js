@@ -3,31 +3,60 @@ topnav.js
 LeedsXR (c) 2020
 All Rights Reserved
 */
+var topNav = document.getElementById('header');
+window.onscroll = function () { 
+    "use strict";
+    if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+        topNav.classList.add("colored");
+        topNav.classList.remove("transparent");
+    } 
+    else {
+        topNav.classList.add("transparent");
+        topNav.classList.remove("colored");
+    }
 
-function check_mobile(){
-    return window.innerWidth <= 450;
+    if(document.getElementById('topnav-links').style.height != "0px" && check_topnav()){
+        topNav.classList.add("colored");
+        topNav.classList.remove("transparent");
+    }
+};
+
+function check_topnav(){
+    return window.innerWidth <= 800;
 }
 
 function set_topnav(){
-    document.getElementById('bar-img').src = "img/bar-icon.png";
-    document.getElementById('h-txt').href = 'javascript: topnav();';
-    document.getElementById('links').style.height = 0;
+    document.getElementById('bar').style.display = "inline-block";
+    document.getElementById('topnav-links').style.height = 0;
 }
 function unset_topnav(){
-    document.getElementById('bar-img').src = "img/headset.png";
-    document.getElementById('h-txt').href = 'index.html';
-    document.getElementById('links').style.height = 'initial';
+    document.getElementById('bar').style.display = "none";
+    document.getElementById('topnav-links').style.height = 'initial';
 }
 
 function topnav(){
-    if(document.getElementById('links').style.height == "0px") document.getElementById('links').style.height = "unset";
-    else document.getElementById('links').style.height = 0;
+	document.getElementById('bar').classList.toggle("change");
+    if(document.getElementById('topnav-links').style.height == "0px") {
+    	document.getElementById('topnav-links').style.height = "100vh";
+    	topNav.classList.add("colored");
+        topNav.classList.remove("transparent");
+    }else{
+    	document.getElementById('topnav-links').style.height = 0;
+    	if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80 ) {
+			topNav.classList.add("colored");
+			topNav.classList.remove("transparent");
+		} 
+		else {
+			topNav.classList.add("transparent");
+			topNav.classList.remove("colored");
+		}
+    }
 }
 
-if(check_mobile()) set_topnav();
+if(check_topnav()) set_topnav();
 
 window.onresize = function(){
-    if(check_mobile()) set_topnav();
+    if(check_topnav()) set_topnav();
     else unset_topnav();
 }
 
