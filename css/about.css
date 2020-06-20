@@ -18,7 +18,8 @@ div#about h1{
 div#about p{
     text-align: justify;
     padding: 10px 10px 20px;
-    margin-top: 0;
+    margin: 0 auto;
+    max-width: 170vh;
 }
 
 div#committee{

@@ -11,6 +11,9 @@ html, body{
     width: 100%;
     background-color: #ffffff;
 }
+body{
+	overflow: hidden;
+}
 
 /*header*/
 div#header{
@@ -141,6 +144,9 @@ div#social-media img{
 }
 
 /*content*/
+div#content{
+	overflow: hidden;
+}
 div.content{
 	margin: 1vw 3.5vw;
 }
@@ -171,7 +177,7 @@ div#blog a:hover{
 div#footer{
 	text-align: center;
 	font-family: 'Montserrat';
-	height: 40px;
+	height: 60px;
 	margin-top: 20px;
 }
 div#footer div{
