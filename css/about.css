@@ -32,3 +32,39 @@ div.member{
     height: 25vw;
     background-color: #eee;
 }
+
+@media only screen and (max-width: 800px){
+    div.member{
+        width: 40vw;
+        margin: 0.5vw 1vw;
+        height: 55vw;
+        background-color: #eee;
+    }
+}
+
+
+/*
+Phones
+*/
+@media only screen and (max-width: 450px){
+
+}
+
+@media only screen and (max-width: 374px){
+	
+}
+
+@media only screen and (max-width: 319px){
+	
+}
+
+/*
+Tablets
+*/
+@media only screen and (min-height: 1000px){
+	
+}
+
+@media only screen and (min-height: 1000px) and (max-width: 800px){
+    
+}
