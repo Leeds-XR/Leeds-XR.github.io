@@ -15,6 +15,7 @@ body{
 /*header*/
 div#header{
     width: 100%;
+    position:  fixed;
     margin: 0;
     margin-bottom: 5px;
     overflow: hidden;
@@ -72,6 +73,7 @@ a.f-link{
 /*body content*/
 div#content{
 	height: 1200px;
+	padding-top: 36px;
 }
 
 /*social box*/
@@ -420,7 +422,7 @@ Phones
     }
 
     div#committee{
-        max-height: 400px;
+        max-height: 800px;
     }
     div#showcase{
     	max-height: 600px;
