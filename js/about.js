@@ -1,6 +1,6 @@
 /*
-committee.js
-LeedsXR (c) 2020
+about.js
+Leeds XR (c) 2020
 All Rights Reserved
 */
 
@@ -25,6 +25,7 @@ function updateCommittee(xml){
   for(var i = 0; i < x.length; i++){
     var cont = document.createElement('div');
     cont.className = "member";
+    if(i < 2) cont.className ="member priority"
 
     var cont2 = document.createElement('div');
 
@@ -46,18 +47,21 @@ function updateCommittee(xml){
     bio.innerHTML = value(x[i], 'bio');
 
     var photo = document.createElement('img');
-    photo.src = "/" + value(x[i], 'photo');
+    photo.src =  "/" + value(x[i], 'photo');
 
     cont2.appendChild(name);
     cont2.appendChild(role);
     cont2.appendChild(email);
-    cont2.appendChild(bio);
+    if(i < 2) cont2.appendChild(bio);
 
     cont.appendChild(photo);
     cont.appendChild(cont2);
-    
-    //TODO add links to certain committee member, must have correctly formatted id, unless we rely on a consistent number (possible)
-    cont.id = i;
+
+    cont.title = value(x[i], 'name');   
+
+    cont.onclick = function(e){
+      location.href = "/committee/"
+    }
 
     document.getElementById('committee').appendChild(cont);
   }

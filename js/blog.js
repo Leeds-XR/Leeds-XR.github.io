@@ -7,46 +7,47 @@ All Rights Reserved
 window.onload = loadBlog;
 
 function loadBlog(){
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      updateBlog(this);
+  var xmlhttp = new XMLHttpRequest();
+    var url = "/blog/blog.json";
+
+    xmlhttp.onreadystatechange = function(){
+        if(this.readyState == 4 && this.status == 200){
+            var blog = JSON.parse(this.responseText);
+            implementBlog(blog);
+        }
     }
-  };
-  xhttp.open("GET", "data/blog.xml", true);
-  xhttp.send();
+    xmlhttp.open('GET', url, true);
+    xmlhttp.send();
 }
 
-function updateBlog(xml){
-  var xmlDoc = xml.responseXML;
-  var x = xmlDoc.getElementsByTagName("post");
-  
-  for(var i = 0; i < x.length; i++){
-    var cont = document.createElement('div');
+function implementBlog(blog){
+    for(var i = 0; i < blog.length; i++){
+        var cont = document.createElement('div');
+        cont.className = 'blog';
+        cont.style.backgroundImage = "url(" + blog[i].img + ")";
 
-    var title = document.createElement('h2');
-    title.innerHTML = value(x[i], 'title');
-    title.className = "title";
+        var inner = document.createElement('div');
+        inner.className = "inner";
+        inner.title = blog[i].title;
 
-    var author = document.createElement('a');
-    author.innerHTML = value(x[i], 'author');
-    author.className = "author";
+        var title = document.createElement('a');
+        title.className = "title";
+        title.innerHTML = blog[i].title;
 
-    var date = document.createElement('a');
-    date.innerHTML = value(x[i], 'date');
-    date.className = "date";
+        var date = document.createElement('a');
+        date.className = "date";
+        date.innerHTML = blog[i].date;
 
-    var desc = document.createElement('p');
-    desc.innerHTML = value(x[i],'description');
-    desc.className = 'desc';
+        var description = document.createElement('p');
+        description.className = "description";
+        description.innerHTML = blog[i].description;
 
-    cont.className = "post";
+        inner.appendChild(title);
+        inner.appendChild(date);
+        inner.appendChild(description);
 
-    cont.appendChild(title);
-    cont.appendChild(date);
-    cont.appendChild(author);
-    cont.appendChild(desc);
+        cont.appendChild(inner);
 
-    document.getElementById('posts').appendChild(cont);
-  }
+        document.getElementById('blog').appendChild(cont);
+    }
 }

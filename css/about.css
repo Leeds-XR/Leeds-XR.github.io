@@ -15,7 +15,7 @@ div#about h1{
     font-size: 3em;
     margin: 10px;
 }
-div#about p{
+p#about-txt{
     text-align: justify;
     padding: 10px 10px 20px;
     margin: 0 auto;
@@ -30,16 +30,80 @@ div.member{
     display: inline-block;
     width: 20vw;
     margin: 0.5vw;
-    height: 25vw;
     background-color: #eee;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+div.member:hover{
+	background-color: #c8c8c8;
+}
+div.member a.name{
+	font-size: 1.4em;
+}
+div.member a.role{
+	font-weight: 700;
+	font-size: 1.1em;
+}
+div.member a.email{
+	font-size: 0.8em;
 }
 
-@media only screen and (max-width: 800px){
+div.member.priority{
+	width: calc(100% - 5vw) !important;
+	padding-top: 5px;
+}
+
+
+div.member.priority img{
+	height: 20vw;
+	width: 20vw;
+	display: inline-block;
+	float: left;
+	margin: 2.5vw;
+}
+div.member.priority a.name{
+	font-size: 2.3em;
+}
+div.member.priority a.role{
+	font-size: 1.3em;
+}
+div.member.priority a.email{
+    font-size : 1em;
+}
+div.member.priority p.bio{
+	padding: 5px;
+}
+
+div.member a{
+	display: block;
+}
+div.member img{
+	width: 90%;
+	margin: 5%;
+	border-radius: 50%;
+}
+
+@media only screen and (max-width: 1200px){
     div.member{
-        width: 40vw;
+    	width: 27vw;
+    }
+}
+
+@media only screen and (max-width: 975px){
+    div.member{
+        width: 36vw;
         margin: 0.5vw 1vw;
-        height: 55vw;
-        background-color: #eee;
+    }
+    div.member a.name{
+    	font-size: 1.1em;
+    }
+    div.member a.role{
+    	font-size: 0.8em;
+    }
+    div.member a.email{
+    	font-size: 0.6em;
     }
 }
 
@@ -48,7 +112,29 @@ div.member{
 Phones
 */
 @media only screen and (max-width: 450px){
+	div#content{
+		padding: 150px 5px 0;
+	}
+	div.member{
+        width: 43vw;
+        margin: 1vw;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    div.member a{
+    	padding-left: 5px;
 
+    }
+    div.member a.name{
+    	font-size: 0.9em;
+
+    }
+    div.member a.role{
+    	font-size: 0.8em;
+    }
+    div.member a.email{
+    	font-size: 0.5em;
+    }
 }
 
 @media only screen and (max-width: 374px){

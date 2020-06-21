@@ -61,7 +61,7 @@ div#topnav-links{
 div#topnav-links a{
     color: #343434;
     text-decoration: none;
-    margin: 20px;
+    margin: 40px;
 }
 div#topnav-links a:hover{
 	color: black;
@@ -99,13 +99,12 @@ div#topnav-links a:hover{
 
 /*intro*/
 div#intro{
-	background-image: url('/img/intro2.jpg');
+	background-image: url('/img/intro.jpg');
 	background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
 	width: 100%;
 	height: calc(100vh - 200px);
-
 	padding: 300px 0 0 20px;
 	font-family: 'Quicksand';
 	color: black;
@@ -157,27 +156,55 @@ div#blog{
 	font-family: 'Montserrat';
 	font-size: 1.5em;
 	border-bottom: 1px solid black;
+
 }
 div#blog div.blog{
 	display: inline-block;
 	width: 43vw;
 	margin: 1vw;
 	height: 25vw;
-	background-color: #eee;
+	background-color: #616161;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: contain;
+	cursor: pointer;
 }
-div#blog a{
+div#blog div.blog div.inner{
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+	background-color: #000000f2;
+	color: white;
+	opacity: 0;
+	overflow: hidden;
+	transition: opacity 0.3s;
+	padding: 20px;
+}
+div#blog div.blog div.inner:hover{
+   opacity: 1;
+
+}
+div.inner a{
+    display: block;
+}
+div.inner p.description{
+	font-size: 0.6em;
+	text-align:  left;
+}
+div.inner p.description a:visited{
+	color: blue;
+}
+a#see-all{
 	text-decoration: none;
 	color: black;
 }
-div#blog a:hover{
-	color: #434343;
+a#see-all:hover{
+	color: #219bab;
 }
 
 /*footer*/
 div#footer{
 	text-align: center;
 	font-family: 'Montserrat';
-	height: 60px;
 	margin-top: 20px;
 }
 div#footer div{
@@ -186,7 +213,7 @@ div#footer div{
 }
 a.f-link{
 	margin: 15px;
-	color: #494949;
+	color: #676767;
 }
 a.f-link:hover{
 	color: black;
@@ -227,7 +254,7 @@ a.f-link:hover{
 
 	div#intro{
 		padding-top: 200px;
-		height: calc(100vh - 100px);
+		background-position: 60%;
 	}
 	div#intro h1{
         max-width: 70%;
@@ -247,17 +274,23 @@ Phones
 */
 @media only screen and (max-width: 450px){
     div#intro{
-        padding-top: 150px;
-        height: 100vh;
+        padding-top: calc(100vh);
+        background-size: 300vw;
+        background-position: -600px -80px;
+        height: unset;
     }
     div#intro h1{
+    	position: absolute;
+    	bottom: -30px;
+    	
     	max-width: 100%;
+    	margin-bottom: 50px;
     }
     div#intro p{
-    	max-width: 60%;
+    	max-width: 90%;
     }
     div#social-media{
-        width: 70%;
+        width: 90%;
     }
     div#social-media div{
     	margin: 0 10px;

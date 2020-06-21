@@ -18,21 +18,11 @@ div#blog{
     padding: 0 2vw 10px;
     border-bottom: 1px solid black;
 }
-div.post{
-    display: inline-block;
-    width: 28vw;
-    margin: 0.5vw;
-    height: 20vw;
-    background-color: #eee;
-}
 
-
-@media only screen and (max-width: 800px){
-    div.post{
-        width: 40vw;
-        margin: 0.5vw 1vw;
-        height: 30vw;
-        background-color: #eee;
+@media only screen and (max-width: 950px){
+    div#blog div.blog{
+    	width: 100%;
+    	height: 55vw
     }
 }
 
