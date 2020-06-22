@@ -28,7 +28,7 @@ function implementBlog(blog){
 
         var inner = document.createElement('div');
         inner.className = "inner";
-        inner.title = blog[i].title;
+        
 
         var title = document.createElement('a');
         title.className = "title";
@@ -46,12 +46,13 @@ function implementBlog(blog){
         inner.appendChild(date);
         inner.appendChild(description);
 
-        cont.appendChild(inner);
-
         if(blog[i].url){
+			inner.title = blog[i].title;
             cont.setAttribute('onclick', 'location.href = "' + blog[i].url + '"');
             cont.classList.add('url');
         }
+		
+		cont.appendChild(inner);
 
         document.getElementById('blogs').appendChild(cont);
     }
