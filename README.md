@@ -1,3 +1,3 @@
-# LeedsXR Society Website
+# Leeds Extended Reality Society Website
 
-Website for LeedsXR Society
+Website for Leeds XR Society
