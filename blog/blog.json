@@ -1,8 +1,17 @@
 [
 	{
+		"title": "The Creative Applications of XR",
+		"name": "cre-app-conf",
+		"date": "1st August 2020",
+		"url": "https://www.eventbrite.co.uk/e/110297679328",
+		"img": "/img/posts/cre-app-conf.jpg",
+		"description": "We are proud to announce our big online society launch event – The Creative Applications of XR conference! <br> We may not be able to see you guys in person, but that won’t stop us from bringing inspiring and informative XR content to you. So join us on August 1st for a full day of exciting, innovative and creative speakers from across the digital industry. <br> Stay tuned for more information on speakers, timings and ways you can join in with our conference… <br> Register through the link below! <br> <a href='https://www.eventbrite.co.uk/e/110297679328'>https://www.eventbrite.co.uk/e/110297679328</a><br>See you guys soon!<br>LXRS"
+	},
+	{
 		"title": "Pointers & Pitfalls for Immersive Start-ups",
 		"name": "pointers-pitfalls-startups",
 		"date": "3pm 15th June 2020",
+		"url": "https://attendee.gotowebinar.com/register/3807864261073086224",
 		"img": "/img/posts/pointers-pitfalls-startups.jpg",
 		"description": "Hello, everyone it's been a while! <br> We're thrilled to bring you our first official webinar in collaboration with our friend in Marks and Clerk Law LLP! <br> If you ever thought about starting your own company or project, or if you want to know more about the exciting field of XR, you should tune in for Pointers & Pitfalls for Immersive tech start-ups A how to guide, without scaring off investors. <br> With our panel of Simon Portma , Andy Hartley, and Graeme Murray.<br> Register your attendance at:<br> <a href='https://attendee.gotowebinar.com/register/3807864261073086224'>https://attendee.gotowebinar.com/register/3807864261073086224</a> <br> See you there guys,<br> LXRS 🙂"
 	},
@@ -12,6 +21,14 @@
 		"date": "19th June 2020",
 		"img": "/img/posts/publicity-rep-ad.jpg",
 		"description": "We're looking for creatives and socialites to help expand our society! <br> Are you interested at being at the front of XR in Leeds? <br> Do you love creating visual content, experience with marketing and social media, or just encouraging people to get involved? <br> Drop us a message by emailing in to start you journey as part of Leeds XR Society committee! <br> <a href='mailto:publicity.leedsxrsociety@gmail.com'>publicity.leedsxrsociety@gmail.com</a>"
+	},
+	{
+		"title": "Boids in XR",
+		"name": "boids-vr",
+		"date": "",
+		"url": "https://revilon99.github.io/boidsVR/",
+		"img": "/img/posts/boids-vr.png",
+		"description": "A simple XR program demonstrating the flocking nature of birds using the boids algorithm. Built on top of the A Frame framework. <br> Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds. His paper on this topic was published in 1987 in the proceedings of the ACM SIGGRAPH conference. The name 'boid' corresponds to a shortened version of 'bird-oid object', which refers to a bird-like object."
 	},
 	{
 		"title": "VR/AR Global Summit",

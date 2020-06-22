@@ -48,6 +48,11 @@ function implementBlog(blog){
 
         cont.appendChild(inner);
 
+        if(blog[i].url){
+            cont.setAttribute('onclick', 'location.href = "' + blog[i].url + '"');
+            cont.classList.add('url');
+        }
+
         document.getElementById('blogs').appendChild(cont);
     }
 }

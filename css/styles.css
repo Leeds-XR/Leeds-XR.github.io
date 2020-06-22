@@ -163,10 +163,12 @@ div#blog div.blog{
 	width: 43vw;
 	margin: 1vw;
 	height: 25vw;
-	background-color: #616161;
+	background-color: transparent;
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: contain;
+}
+div#blog div.blog.url{
 	cursor: pointer;
 }
 div#blog div.blog div.inner{
