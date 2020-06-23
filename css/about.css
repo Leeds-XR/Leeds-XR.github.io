@@ -116,29 +116,68 @@ Phones
 		padding: 150px 5px 0;
 	}
 	div.member{
-        width: 43vw;
+        width: 44vw;
         margin: 1vw;
         padding: 0;
         padding-bottom: 5px;
     }
     div.member a{
     	padding-left: 5px;
-
     }
     div.member a.name{
-    	font-size: 0.9em;
+    	font-size: 1em;
 
     }
+    div.member.priority a.name{
+        font-size: 1.8em;
+    }
     div.member a.role{
-    	font-size: 0.8em;
+    	font-size: 1em;
     }
     div.member a.email{
-    	font-size: 0.5em;
+    	font-size: 0.6em;
+    }
+
+    div.member.priority{
+        width: 100% !important;
+    }
+    div.member.priority p.bio{
+        padding-left: 10px;
     }
 }
 
 @media only screen and (max-width: 374px){
-	
+    div#about h1{
+        font-size: 2.2em;
+        margin-bottom: 5px;
+    }
+    p#about-txt{
+        font-size: 0.7em;
+        padding: 0 5px;
+    }
+
+	div.member.priority p.bio{
+		display: none;
+	}
+	div.member.priority a.name{
+		font-size: 1.4em;
+	}
+	div.member.priority a.role{
+		font-size: 1em;
+	}
+	div.member.priority a.email{
+		font-size: 0.8em;
+	}
+
+	div.member a.name{
+        font-size: 0.8em;
+	}
+	div.member a.role{
+		font-size: 0.6em;
+	}
+	div.member a.email{
+		font-size: 0.45em;
+	}
 }
 
 @media only screen and (max-width: 319px){
@@ -149,9 +188,22 @@ Phones
 Tablets
 */
 @media only screen and (min-height: 1000px){
-	
+	div#content{
+        padding: 150px 0 0;
+	}
+	div#committee{
+		padding: 10px 0;;
+	}
+	div.member.priority{
+		width: calc(100vw - 40px) !important;
+	}
+	div.member{
+    	width: 30vw;
+    }
 }
 
 @media only screen and (min-height: 1000px) and (max-width: 800px){
-    
+    div.member{
+    	width: 28vw;
+    }
 }

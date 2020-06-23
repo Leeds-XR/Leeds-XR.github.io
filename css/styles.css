@@ -277,9 +277,9 @@ Phones
 @media only screen and (max-width: 450px){
     div#intro{
         padding-top: calc(100vh);
-        background-size: 300vw;
-        background-position: -600px -80px;
-        height: unset;
+        background-size: 355vw;
+        background-position: -750px -50px;
+        height: 0vh;
     }
     div#intro h1{
     	position: absolute;
@@ -298,10 +298,50 @@ Phones
     	margin: 0 10px;
     	min-width: 60px
     }
+    div#blog{
+        padding-top: 300px;
+    }
 }
 
 @media only screen and (max-width: 374px){
-	
+    div#header{
+        height: 100px;
+        font-size: 0.8em;
+    }
+    div#topnav-links{
+        top: 100px;
+    }
+
+	div#intro{
+        background-size: 270vw;
+        background-position: -450px -0px;
+        height: 0vh;
+        margin-bottom: 60px;
+    }
+    div#intro h1{
+        font-size: 2em;
+        bottom: -40px;
+    }
+    div#intro h2{
+        font-size: 1.5em;
+    }
+    div#intro p{
+    	font-size: 1em;
+    }
+
+    div#blog{
+    	padding-top: 170px;
+    }
+    div#blog h1{
+    	font-size: 1.5em;
+    }
+    div#footer{
+        font-size: 0.6em;
+        margin: 5px;
+    }
+    a#see-all{
+    	font-size: 0.7em;
+    }
 }
 
 @media only screen and (max-width: 319px){
@@ -312,9 +352,25 @@ Phones
 Tablets
 */
 @media only screen and (min-height: 1000px){
-	
+	 div#intro{
+        padding-top: 200px;
+        background-size: 270vw;
+        background-position: -1200px -300px;
+    }
 }
 
 @media only screen and (min-height: 1000px) and (max-width: 800px){
-    
+    div#intro{
+        padding-top: 200px;
+        background-size: 270vw;
+        background-position: -1000px -100px;
+    }
+    div#social-media{
+    	position: absolute;
+    	bottom: 35px;
+        width: 50%;
+    }
+    div#intro p{
+    	max-width: 45%;
+    }
 }
