@@ -28,7 +28,7 @@ textarea{
     height: 250px;
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -37,6 +37,19 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+
+form{
+	text-align: center;
+	padding-bottom: 50px;
+	max-width: 170vh;
+	margin: auto;
+}
+
+fieldset{
+	width: 100%;
+	border: none;
+	text-align: left;
 }
 
 input[type=submit] {
