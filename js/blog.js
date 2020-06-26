@@ -45,12 +45,10 @@ function implementBlog(blog){
         inner.appendChild(title);
         inner.appendChild(date);
         inner.appendChild(description);
-        
-        if(blog[i].url){
-			inner.title = blog[i].title;
-            cont.setAttribute('onclick', 'location.href = "' + blog[i].url + '"');
-            cont.classList.add('url');
-        }
+
+        cont.setAttribute('onclick', 'location.href = "/blog/post/?name=' + blog[i].name + '"');
+		inner.title = blog[i].title;
+		cont.classList.add('url');
 		
 		cont.appendChild(inner);
 

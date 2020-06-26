@@ -1,0 +1,73 @@
+/*
+post.css
+Leeds XR (c) 2020
+All Rights Reserved
+*/
+
+div#content{
+    text-align: center;
+    padding: 150px 20px 0;
+}
+
+div#post{
+    font-family: 'Montserrat';
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+h1.title{
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+a.date{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+img.image{
+    height: 100%;
+    max-height: 50vh;
+    display: inline-block;
+    float: right;
+    margin: 5px;
+}
+
+p.description{
+    padding-top: 40px;
+    margin: 5px;
+    min-height: 50vh;
+}
+
+@media only screen and (max-width: 800px){
+    img.image{
+        width: 100%;
+        height: initial;
+        max-height: initial;
+        float: none;
+    }
+    p.description{
+        padding: 5px 0;
+        min-height: initial;
+    }
+}
+
+@media only screen and (min-height: 1000px){
+    div#post{
+        min-height: calc(100vh - 260px);
+    }
+
+    img.image{
+        margin: 5px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: unset;
+    }
+    h1.title{
+        font-size: 3em;
+    }
+    p.description{
+        font-size: 1.4em;
+        margin: 20px 0;
+    }
+}
