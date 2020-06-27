@@ -36,6 +36,7 @@ function showPost(blog){
     var title = document.createElement('h1');
     title.className = "title";
     title.innerHTML = post.title;
+	document.title = post.title + " - Leeds Extended Reality Society";
 
     var date = document.createElement('a');
     date.className = "date";
