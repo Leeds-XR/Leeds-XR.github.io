@@ -301,6 +301,9 @@ Phones
     div#blog{
         padding-top: 300px;
     }
+    div#blog div.blog div.inner{
+    	opacity: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 374px){
