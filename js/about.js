@@ -59,9 +59,7 @@ function updateCommittee(committee){
 
     cont.title = committee[i].name;   
 
-    cont.onclick = function(e){
-      location.href = "/committee/"
-    }
+    cont.setAttribute('onclick', 'location.href="/committee/#' + committee[i].id + '"');
 
     document.getElementById('committee').appendChild(cont);
   }

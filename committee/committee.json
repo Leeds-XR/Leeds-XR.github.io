@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Anna Goldson",
+		"id": "anna-goldson",
 		"photo": "/img/committee/anna-goldson.jpg",
 		"role": "President",
 		"email": "leedsxrsociety@gmail.com",
@@ -8,6 +9,7 @@
 	},
 	{
 		"name": "Mohamed Ismail",
+		"id": "mohamed-ismail",
 		"photo": "/img/committee/mohamed-ismail.jpg",
 		"role": "Vice-President",
 		"email": "leedsxrsociety@gmail.com",
@@ -15,6 +17,7 @@
 	},
 	{
 		"name": "Joseph De Marcillac",
+		"id": "joe-ddm",
 		"photo": "/img/committee/joe-ddm.png",
 		"role": "General Secretary",
 		"email": "gensec.leedsxrsociety@gmail.com",
@@ -22,6 +25,7 @@
 	},
 	{
 		"name": "Oliver Cass",
+		"id": "oliver-cass",
 		"photo": "/img/committee/oliver-cass.png",
 		"role": "Treasurer",
 		"email": "treasurer.leedsxrsociety@gmail.com",
@@ -29,6 +33,7 @@
 	},
 	{
 		"name": "Sam Hodgkinson",
+		"id": "sam-hodgkinson",
 		"photo": "/img/committee/sam-hodgkinson.jpg",
 		"role": "Sponsorship Rep",
 		"email": "sponsorship.leedsxrsociety@gmail.com",
@@ -36,6 +41,7 @@
 	},
 	{
 		"name": "Reece Jeanes",
+		"id": "reece-jeanes",
 		"photo": "/img/committee/reece-jeanes.jpg",
 		"role": "Publicity Rep",
 		"email": "publicity.leedsxrsociety@gmail.com",
@@ -43,6 +49,7 @@
 	},
 	{
 		"name": "Callum Methold",
+		"id": "callum-methold",
 		"photo": "/img/committee/callum-methold.jpg",
 		"role": "Faculty Rep",
 		"email": "faculty.leedsxrsociety@gmail.com",
@@ -50,6 +57,7 @@
 	},
 	{
 		"name": "Eve Macdonald",
+		"id": "eve-macdonald",
 		"photo": "/img/committee/eve-macdonald.jpg",
 		"role": "Events Rep",
 		"email": "events.leedsxrsociety@gmail.com",
@@ -57,6 +65,7 @@
 	},
 	{
 		"name": "Boyan Karatotev",
+		"id": "boyan-karatotev",
 		"photo": "/img/committee/boyan-karatotev.png",
 		"role": "Events Rep",
 		"email": "events.leedsxrsociety@gmail.com",
@@ -64,6 +73,7 @@
 	},
 	{
 		"name": "Tomás Borges",
+		"id": "tomas-borges",
 		"photo": "/img/committee/tomas-borges.jpg",
 		"role": "Events Rep",
 		"email": "events.leedsxrsociety@gmail.com",

@@ -26,6 +26,7 @@ function updateCommittee(committee){
   for(var i = 0; i < committee.length; i++){
     var cont = document.createElement('div');
     cont.className = "member";
+    cont.id = committee[i].id;
 
     var cont2 = document.createElement('div');
 
@@ -56,10 +57,10 @@ function updateCommittee(committee){
 
     cont.appendChild(photo);
     cont.appendChild(cont2);
-    
-    //TODO add links to certain committee member, must have correctly formatted id, unless we rely on a consistent number (possible)
-    cont.id = i;
 
     document.getElementById('committee').appendChild(cont);
   }
+
+  var top = document.getElementById(window.location.hash.substring(1)).offsetTop;
+  window.scrollTo(0, top - 170);  
 }
