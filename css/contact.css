@@ -70,7 +70,10 @@ input[type=submit]:hover {
 Phones
 */
 @media only screen and (max-width: 450px){
-
+    fieldset{
+    	padding: 0;
+    	margin: 0;
+    }
 }
 
 @media only screen and (max-width: 374px){
