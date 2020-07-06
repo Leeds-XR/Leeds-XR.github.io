@@ -1,8 +1,9 @@
 /*
 topnav.js
-LeedsXR (c) 2020
+Leeds XR (c) 2020
 All Rights Reserved
 */
+
 var topNav = document.getElementById('header');
 window.onscroll = function () { 
     "use strict";

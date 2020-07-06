@@ -5,7 +5,6 @@ All Rights Reserved
 */
 
 window.onload = loadBlog;
-
 function loadBlog(){
   var xmlhttp = new XMLHttpRequest();
     var url = "/blog/blog.json";

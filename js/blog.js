@@ -1,11 +1,10 @@
 /*
 blog.js
-LeedsXR (c) 2020
+Leeds XR (c) 2020
 All Rights Reserved
 */
 
 window.onload = loadBlog;
-
 function loadBlog(){
   var xmlhttp = new XMLHttpRequest();
     var url = "/blog/blog.json";

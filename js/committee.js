@@ -1,12 +1,10 @@
 /*
 committee.js
-LeedsXR (c) 2020
+Leeds XR (c) 2020
 All Rights Reserved
 */
 
-
 window.onload = loadCommittee;
-
 function loadCommittee(){
   var xmlhttp = new XMLHttpRequest();
     var url = "/committee/committee.json";

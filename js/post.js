@@ -4,10 +4,7 @@ Leeds XR (c) 2020
 All Rights Reserved
 */
 
-
-
 window.onload = loadPost;
-
 function loadPost(){
     var xmlhttp = new XMLHttpRequest();
     var url = "/blog/blog.json";
