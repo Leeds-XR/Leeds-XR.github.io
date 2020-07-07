@@ -60,10 +60,3 @@ window.onresize = function(){
     if(check_topnav()) set_topnav();
     else unset_topnav();
 }
-
-function value(ele, tag){
-	if(ele == undefined) return "";
-	var tag_ele = ele.getElementsByTagName(tag)[0];
-	if(tag_ele && tag_ele.childNodes[0]) return tag_ele.childNodes[0].nodeValue||"";
-	else return "";
-}
