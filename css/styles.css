@@ -163,7 +163,7 @@ div#blog div.blog{
 	width: 43vw;
 	margin: 1vw;
 	height: 25vw;
-	background-color: transparent;
+	background-color: #bababa38;
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: contain;
