@@ -11,25 +11,16 @@ window.onscroll = function () {
     "use strict";
     if(location.pathname != "/") return;
     if ((document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80)) {
-        topNav.classList.add("colored");
         topNav.classList.remove("transparent");
-
-        topNavLinks.classList.add("colored");
         topNavLinks.classList.remove("transparent");
     } 
     else {
         topNav.classList.add("transparent");
-        topNav.classList.remove("colored");
-
         topNavLinks.classList.add("transparent");
-        topNavLinks.classList.remove("colored");
     }
 
     if(document.getElementById('topnav-links').style.height != "0px" && check_topnav()){
-        topNav.classList.add("colored");
         topNav.classList.remove("transparent");
-
-        topNavLinks.classList.add("colored");
         topNavLinks.classList.remove("transparent");
     }
 };
@@ -51,25 +42,25 @@ function topnav(){
 	document.getElementById('bar').classList.toggle("change");
     if(document.getElementById('topnav-links').style.height == "0px") {
     	document.getElementById('topnav-links').style.height = "100vh";
-    	topNav.classList.add("colored");
         topNav.classList.remove("transparent");
-
-        topNavLinks.classList.add("colored");
         topNavLinks.classList.remove("transparent");
     }else{
     	document.getElementById('topnav-links').style.height = 0;
     	if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80 ) {
-			topNav.classList.add("colored");
 			topNav.classList.remove("transparent");
-
-			topNavLinks.classList.add("colored");
             topNavLinks.classList.remove("transparent");
 		} 
 		else {
 			topNav.classList.add("transparent");
-			topNav.classList.remove("colored");
+            topNavLinks.classList.add("transparent");
 		}
     }
+
+     if(location.pathname != "/"){
+    	topNav.classList.remove("transparent");
+        topNavLinks.classList.remove("transparent");
+        return;
+    }    
 }
 
 if(check_topnav()) set_topnav();

@@ -31,12 +31,10 @@ div#header{
     font-weight: 700;
     transition: color 0.4s;
     opacity: 1;
+    color: black;
 }
 div#header.transparent{
 	color: white;
-}
-div#header.colored{
-	color: black;
 }
 div#header div#hbg{
 	background-color: white;
@@ -48,9 +46,6 @@ div#header div#hbg{
 	transition: opacity 0.4s;
 	opacity: 1;
 	z-index: -1;
-}
-div#header.colored div#hbg{
-    opacity: 1;
 }
 div#header.transparent div#hbg{
     opacity: 0;
@@ -78,15 +73,16 @@ div#topnav-links{
 div#topnav-links a{
     text-decoration: none;
     margin: 40px;
+    color: #343434;
+}
+div#topnav-links a:hover{
+	color: black;
 }
 div#topnav-links.transparent a{
 	color: white;
 }
-div#topnav-links.colored a{
-	color: #343434;
-}
-div#topnav-links.colored a:hover{
-	color: black;
+div#topnav-links.transparent a:hover{
+	color: inherit;
 }
 
 #bar {
@@ -261,7 +257,7 @@ a.f-link:hover{
     }
     div#topnav-links a{
 		display: block;
-		color: white;
+		color: white !important;
 	}
 	div#topnav-links a:hover{
         color: #c5c5c5;
