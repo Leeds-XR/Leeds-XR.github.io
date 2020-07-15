@@ -30,7 +30,7 @@ div#header{
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 700;
     transition: color 0.4s;
-    opacity = 1;
+    opacity: 1;
 }
 div#header.transparent{
 	color: white;
