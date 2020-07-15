@@ -26,17 +26,34 @@ div#header{
     margin-bottom: 5px;
     overflow: hidden;
     font-size: 1em;
-    color: black;
     height: 150px;
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 700;
-    transition: background-color 0.4s;
+    transition: color 0.4s;
+    opacity = 1;
 }
 div#header.transparent{
-	background-color: transparent;
+	color: white;
 }
 div#header.colored{
+	color: black;
+}
+div#header div#hbg{
 	background-color: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: opacity 0.4s;
+	opacity: 1;
+	z-index: -1;
+}
+div#header.colored div#hbg{
+    opacity: 1;
+}
+div#header.transparent div#hbg{
+    opacity: 0;
 }
 
 div#topnav-logo-cont{
@@ -59,11 +76,16 @@ div#topnav-links{
 	transition: height 0.4s;
 }
 div#topnav-links a{
-    color: #343434;
     text-decoration: none;
     margin: 40px;
 }
-div#topnav-links a:hover{
+div#topnav-links.transparent a{
+	color: white;
+}
+div#topnav-links.colored a{
+	color: #343434;
+}
+div#topnav-links.colored a:hover{
 	color: black;
 }
 
@@ -107,7 +129,7 @@ div#intro{
 	height: calc(100vh - 200px);
 	padding: 300px 0 0 20px;
 	font-family: 'Quicksand';
-	color: black;
+	color: white;
 }
 div#intro h1{
     margin-bottom: 0;
@@ -121,7 +143,6 @@ div#intro h2{
 }
 div#intro p{
 	margin-top: 2px;
-	margin-left: 10px;
 	max-width: 50%;
 	font-size: 1.5em;
 }
@@ -280,6 +301,7 @@ Phones
         background-size: 355vw;
         background-position: -750px -50px;
         height: 0vh;
+        color: black;
     }
     div#intro h1{
     	position: absolute;

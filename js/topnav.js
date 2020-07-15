@@ -5,20 +5,32 @@ All Rights Reserved
 */
 
 var topNav = document.getElementById('header');
+var topNavLinks = document.getElementById('topnav-links');
+
 window.onscroll = function () { 
     "use strict";
-    if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80) {
+    if(location.pathname != "/") return;
+    if ((document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80)) {
         topNav.classList.add("colored");
         topNav.classList.remove("transparent");
+
+        topNavLinks.classList.add("colored");
+        topNavLinks.classList.remove("transparent");
     } 
     else {
         topNav.classList.add("transparent");
         topNav.classList.remove("colored");
+
+        topNavLinks.classList.add("transparent");
+        topNavLinks.classList.remove("colored");
     }
 
     if(document.getElementById('topnav-links').style.height != "0px" && check_topnav()){
         topNav.classList.add("colored");
         topNav.classList.remove("transparent");
+
+        topNavLinks.classList.add("colored");
+        topNavLinks.classList.remove("transparent");
     }
 };
 
@@ -41,11 +53,17 @@ function topnav(){
     	document.getElementById('topnav-links').style.height = "100vh";
     	topNav.classList.add("colored");
         topNav.classList.remove("transparent");
+
+        topNavLinks.classList.add("colored");
+        topNavLinks.classList.remove("transparent");
     }else{
     	document.getElementById('topnav-links').style.height = 0;
     	if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80 ) {
 			topNav.classList.add("colored");
 			topNav.classList.remove("transparent");
+
+			topNavLinks.classList.add("colored");
+            topNavLinks.classList.remove("transparent");
 		} 
 		else {
 			topNav.classList.add("transparent");
