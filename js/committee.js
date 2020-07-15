@@ -58,7 +58,8 @@ function updateCommittee(committee){
 
     document.getElementById('committee').appendChild(cont);
   }
-
+  
+  if(window.location.hash == "") return;
   var top = document.getElementById(window.location.hash.substring(1)).offsetTop;
   window.scrollTo(0, top - 170);  
 }
