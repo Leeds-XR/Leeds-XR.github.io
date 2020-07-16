@@ -15,6 +15,11 @@ body{
 	overflow: hidden;
 }
 
+img#fb-img{
+	position: fixed;
+	top: 100vh;
+}
+
 /*header*/
 div#header{
 	z-index: 2;
