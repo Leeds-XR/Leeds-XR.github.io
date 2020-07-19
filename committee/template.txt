@@ -1,0 +1,8 @@
+	{
+		"name": "",
+		"id": "",
+		"photo": "/img/committee/.jpg",
+		"role": "",
+		"email": ".leedsxrsociety@gmail.com",
+		"bio": ""
+	},

@@ -55,10 +55,12 @@ div#conf img.link{
     top: 1vw;
     margin-right: 10px
 }
-div#conf a{
+div#links a{
     margin: 10px;
     font-size: 1.3em;
+    display: block;
     position: relative;
+    bottom: 10px;
 }
 
 
@@ -70,4 +72,30 @@ div#conf h3{
 div#conf h4{
     font-size: 1.8em;
     margin: 10px 0 0 0;
+}
+
+@media only screen and (max-width: 800px){
+    div#content-conf{
+        padding: 150px 20px 0;
+    }
+    div#conf{
+        padding: 0;
+    }
+
+    div#conf h1{
+        font-size: 2.2em;
+    }
+
+    div#links{
+        text-align: center;
+    }
+    div#links a{
+        font-size: 0;
+        display: inline-block;
+        margin: 10px 10vw;
+    }
+    div#conf img.link{
+        width: 15vw;
+        max-width: initial;
+    }
 }

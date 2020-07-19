@@ -78,5 +78,21 @@
 		"role": "Events Rep",
 		"email": "events.leedsxrsociety@gmail.com",
 		"bio": "Hi everyone, I’m Tomás Borges, a 1st year Computer Science student and one of the Events Reps in Leeds XR Society. <br> My introduction to XR was back in 2013 when Google presented the Google Glass, one of the very first attempts to bring XR to the public. Since then, I’ve always kept an eye on what was being done and on the accessibility of the technology. XR brings a new form of human-machine interaction, and therefore new possibilities to what we can do and how we interact with each other. <br> As part of the Events Rep team, I look forward to give students access to XR equipment and the possibility to learn how to develop products with it. Thus, I hope to bring a set of events that allows a range of people from different disciplines to see this society as a platform to develop their ideas and to solve their challenges. <br> I’m excited to what we’ll bring next year, democratising XR and contributing to the development of the technology!"
-	}
+	},
+	{
+		"name": "Corina Gunawidjaja",
+		"id": "corina-gunawidjaja",
+		"photo": "/img/committee/corina-gunawidjaja.jpg",
+		"role": "Graphic Design Rep",
+		"email": "publicity.leedsxrsociety@gmail.com",
+		"bio": "Hi everyone! I'm Corina Gunawidjaja, a second-year digital media student currently on placement, and I'll be one of the graphic design reps for the society. <br> My first encounter with XR was back at an open day a few years ago, where I had the opportunity to mess around in TiltBrush to create designs in a virtual 3D space. Being fully immersed in the virtual environment was such a fun and unique experience, and allowed me to explore art in a completely new perspective. Ever since then, I've always been interested as to how the technology can transform the way we learn, live, communicate and connect with others around the world. With the technology becoming increasingly popular, it's exciting to see how it'll be implemented in more mainstream applications in the future. <br> Although I haven't had much experience in XR due to its high price point, I've learnt enough from my degree to understand its full potential to cause a monumental shift across many industries in the coming years. <br> One of the main things that drew me into society is its determination to make these technologies accessible to everyone. It's an inclusive community for students from all disciplines to come together and enjoy the rapidly growing field of XR. As the graphic design rep, I can't wait to be promoting opportunities for students across Leeds to learn and experience more about this exciting technology first hand!"
+	},
+	{
+		"name": "Katie Goodfellow",
+		"id": "katie-goodfellow",
+		"photo": "/img/committee/katie-goodfellow.jpg",
+		"role": "Social Media Rep",
+		"email": "publicity.leedsxrsociety@gmail.com",
+		"bio": "Hi guys! I’m Katie Goodfellow, and I'm coming into my third year studying Film, Photography and Media and I am the social media rep for the society! <br> I haven’t had much experience with XR and that’s why I wanted to join this society as I’ve always thought it was very interesting. The new way to view experiences through the use of XR is very exciting, and now it’s developing more than ever. My favourite use of XR is the amazing artwork that talented people are able to produce. <br> In the future I am sure it will be an integral part in most industry and it’ll become an extremely common application within society and the world of work. <br> What’s exciting about this society, and one of the reasons why I joined it, is because they want to make this technology available for everyone to use. It’s an extremely friendly and helpful community to be in and as the social media rep I want to make this society known so as many people as possible can access and experience XR!"
+	}	
 ]
