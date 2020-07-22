@@ -51,4 +51,13 @@ function showPost(blog){
     postCont.appendChild(date);
     postCont.appendChild(img);
     postCont.appendChild(description);
+	
+	formatDocument();
+}
+
+function formatDocument(){
+	var links = document.querySelectorAll('a');
+	for(var i = 0; i < links.length; i++) {
+		if(links[i].parentElement.className === "description") links[i].target = "_blank";
+	}
 }
