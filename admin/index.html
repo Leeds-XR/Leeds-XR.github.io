@@ -1,0 +1,30 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+		  window.fbAsyncInit = function() {
+			FB.init({
+			  appId            : '3474112105941846',
+			  autoLogAppEvents : true,
+			  xfbml            : true,
+			  version          : 'v7.0'
+			});
+			
+			FB.api(
+				"/leedsxrsociety/feed",
+				function (response) {
+				  if (response && !response.error) {
+					document.getElementById('feed').innerHTML = response.toString();
+				  }
+				}
+			);
+		  };
+		</script>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+		<p id="feed"></p>
+		<script>
+			
+		</script>
+	</body>
+</html>
