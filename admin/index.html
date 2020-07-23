@@ -3,28 +3,37 @@
 	</head>
 	<body>
 		<script>
-		  window.fbAsyncInit = function() {
-			FB.init({
-			  appId            : '3474112105941846',
-			  autoLogAppEvents : true,
-			  xfbml            : true,
-			  version          : 'v7.0'
-			});
-			
-			FB.api(
-				"/leedsxrsociety/posts",
-				function (response) {
-				console.log(response);
-				  if (response && !response.error) {
-					console.log(response);
-					document.getElementById('feed').innerHTML = response.toString();
-				  }
-				}
-			);
-			console.log('request made');
-		  };
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId      : '3474112105941846',
+					xfbml      : true,
+					version    : 'v7.0'
+				});
+				FB.AppEvents.logPageView();
+				
+				
+				FB.api(
+					"/leedsxrsociety/posts",
+					{
+						access_token: '2a37a0d1b3a4fe8f9065fd221e880057'
+					},
+					function (response) {
+						console.log(response);
+						if (response && !response.error) {
+							/* handle the result */
+						}
+					}
+				);
+			};
+
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "https://connect.facebook.net/en_US/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
 		</script>
-		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 		<p id="feed"></p>
 	</body>
 </html>
