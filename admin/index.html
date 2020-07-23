@@ -10,20 +10,6 @@
 					version    : 'v7.0'
 				});
 				FB.AppEvents.logPageView();
-				
-				
-				FB.api(
-					"/leedsxrsociety/posts",
-					{
-						access_token: '2a37a0d1b3a4fe8f9065fd221e880057'
-					},
-					function (response) {
-						console.log(response);
-						if (response && !response.error) {
-							/* handle the result */
-						}
-					}
-				);
 			};
 
 			(function(d, s, id){
@@ -34,6 +20,11 @@
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));
 		</script>
-		<p id="feed"></p>
+		<div class="fb-page" 
+		  data-tabs="timeline,events,messages"
+		  data-href="https://www.facebook.com/leedsxrsociety"
+		  data-width="380" 
+		  data-hide-cover="false">
+		</div>
 	</body>
 </html>
