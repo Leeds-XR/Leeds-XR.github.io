@@ -31,7 +31,7 @@ function check_topnav(){
 
 function set_topnav(){
     document.getElementById('bar').style.display = "inline-block";
-    document.getElementById('topnav-links').style.height = 0;
+    if(document.getElementById('topnav-links').style.height != "100vh") document.getElementById('topnav-links').style.height = 0;
 }
 function unset_topnav(){
     document.getElementById('bar').style.display = "none";

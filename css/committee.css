@@ -40,6 +40,7 @@ div.member a.role{
 div.member img{
 	height: 10vw;
 	margin: 15px;
+	margin-bottom: 3px;
 	border-radius: 50%;
 	float: left;
 }
@@ -60,11 +61,13 @@ Phones
         font-size: 1.2em;
 	}
 	div.member a.email{
-        font-size: 0.7em;
+        font-size: 1em;
+        overflow: overlay
 	}
 	div.member img{
 		height: 12vh;
-		margin: 5px 10px;
+		margin: 0 10px;
+		margin-bottom: 5px;
 	}
 }
 

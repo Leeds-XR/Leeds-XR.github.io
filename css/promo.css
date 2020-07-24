@@ -43,10 +43,6 @@ div#conf h2{
     margin: 0 15px 10px;
     color: #878787;
 }
-div#conf img{
-    width: 100%;
-    max-width: 170vh;
-}
 
 div#conf img.link{
     width: 7vw;
@@ -66,12 +62,36 @@ div#links a{
 
 div#conf h3{
     padding-left: 10px;
-    font-size: 1.7em;
+    font-size: 3.7em;
     margin: 10px;
 }
 div#conf h4{
     font-size: 1.8em;
     margin: 10px 0 0 0;
+}
+h5.name{
+    font-size: 3em;
+    margin: 2px;
+}
+p.description{
+    min-height: calc(16vw + 10px);
+}
+img.speaker-img{
+    display: inline-block;
+    float: left;
+    width: 12vw;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+img.speaker-img:only-of-type{
+    width: 16vw;
+    margin: 20px;
+}
+div.speaker:nth-child(2n) img.speaker-img{
+    float: right;
+}
+p.indent{
+    margin: -1em 1em;
 }
 
 @media only screen and (max-width: 800px){
@@ -97,5 +117,19 @@ div#conf h4{
     div#conf img.link{
         width: 15vw;
         max-width: initial;
+    }
+    div#conf h3{
+        margin-left: -15px;
+    }
+
+    h5.name{
+        font-size: 2.1em;
+    }
+    img.speaker-img{
+        width: calc(50%);
+    }
+    img.speaker-img:only-of-type{
+        width: 50%;
+        margin: 10px;
     }
 }
