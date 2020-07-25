@@ -94,6 +94,13 @@ p.indent{
     margin: -1em 1em;
 }
 
+p#schedule{
+    text-align: center;
+}
+p#schedule a{
+    display: block;
+}
+
 @media only screen and (max-width: 800px){
     div#content-conf{
         padding: 150px 20px 0;
@@ -131,5 +138,6 @@ p.indent{
     img.speaker-img:only-of-type{
         width: 50%;
         margin: 10px;
+        margin-bottom: 0;
     }
 }

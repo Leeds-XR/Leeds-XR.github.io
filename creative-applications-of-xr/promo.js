@@ -48,10 +48,11 @@ function showSpeakers(speakers){
 		
 		container.className = "speaker";
 		
-		container.appendChild(name);
+		if(check_topnav()) container.appendChild(name);
 		
 		for(var j = 0; j < img.length; j++) container.appendChild(img[j]);
 		
+		if(!check_topnav()) container.appendChild(name);
 		
 		container.appendChild(description);
 		

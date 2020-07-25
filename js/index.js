@@ -20,7 +20,7 @@ function loadBlog(){
 }
 
 function implementBlog(blog){
-    for(var i = 0; i < 4 && i < blog.length; i++){
+    for(var i = 0; i < 8 && i < blog.length; i++){
         var cont = document.createElement('div');
         cont.className = 'blog';
         cont.style.backgroundImage = "url(" + blog[i].img + ")";
