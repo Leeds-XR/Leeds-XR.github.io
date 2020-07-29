@@ -94,11 +94,14 @@ p.indent{
     margin: -1em 1em;
 }
 
-p#schedule{
+div#s-container{
+    width: 100%;
     text-align: center;
 }
-p#schedule a{
-    display: block;
+img#schedule{
+    width: 100%;
+    max-width: 140vh;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 800px){
