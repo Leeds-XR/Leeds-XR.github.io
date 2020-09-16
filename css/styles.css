@@ -207,9 +207,6 @@ div#blog div.blog div.inner:hover{
    opacity: 1;
 
 }
-div.inner a{
-    display: block;
-}
 div.inner p.description{
 	font-size: 0.6em;
 	text-align:  left;
