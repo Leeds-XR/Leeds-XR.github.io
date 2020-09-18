@@ -127,7 +127,7 @@ div#intro{
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover;
 	width: 100%;
-	height: calc(100vh - 200px);
+	min-height: calc(100vh - 200px);
 	padding: 300px 0 0 20px;
 	font-family: 'Quicksand';
 	color: white;
