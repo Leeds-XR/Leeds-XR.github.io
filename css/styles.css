@@ -205,7 +205,6 @@ div#blog div.blog div.inner{
 }
 div#blog div.blog div.inner:hover{
    opacity: 1;
-
 }
 div.inner p.description{
 	font-size: 0.6em;
@@ -213,6 +212,9 @@ div.inner p.description{
 }
 div.inner p.description a:visited{
 	color: blue;
+}
+a.date{
+	display: block;
 }
 a#see-all{
 	text-decoration: none;
