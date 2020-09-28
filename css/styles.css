@@ -152,6 +152,7 @@ div#social-media{
 	display: inline-block;
 	width: 50%;
 	text-align: center;
+	padding-top: 50px;
 }
 div#social-media div{
 	width: 8%;
