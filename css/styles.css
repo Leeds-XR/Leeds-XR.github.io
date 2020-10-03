@@ -302,6 +302,7 @@ Phones
         background-size: 355vw;
         background-position: -750px -50px;
         height: 0vh;
+		min-height: initial;
         color: black;
     }
     div#intro h1{
