@@ -317,6 +317,7 @@ Phones
     }
     div#social-media{
         width: 90%;
+		padding-top: 0px;
     }
     div#social-media div{
     	margin: 0 10px;
