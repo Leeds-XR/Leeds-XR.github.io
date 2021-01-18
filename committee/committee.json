@@ -32,14 +32,6 @@
 		"bio": "I'm Oliver Cass, a 2nd Year Mechanical Engineering Student and Treasurer of Leeds XR Society. <br> My introduction to XR was many years ago when Google first released their Cardboards that allowed you to use VR from your phone. With a bit of tinkering I figured out how to play almost any game that could run on my laptop at the time (Minecraft) in VR. <br> I also messed around with making VR games and programs, however the durability of the Google Cardboard is about as good as you would expect from something with cardboard in the name... <br> Since then VR has come a long way, but unfortunately due to the price barriers involved in VR, I haven’t been able to see its full potential. My hopes for Leeds XR Soc, as treasurer, is to make Extended Reality devices more accessible, and get as many people using XR as possible!"
 	},
 	{
-		"name": "Sam Hodgkinson",
-		"id": "sam-hodgkinson",
-		"photo": "/img/committee/sam-hodgkinson.jpg",
-		"role": "Sponsorship Rep",
-		"email": "sponsorship.leedsxrsociety@gmail.com",
-		"bio": "I first became interested in XR during a visit to a science and technology conference in 2015, where I had the opportunity to demo the Oculus Rift VR headset. This was a very interesting experience for me, even if it was playing very simple games. <br> Unfortunately, due to its new development, VR was not personally accessible due to its high price at the time. However, the knowledge I have gained from my degree so far has provided me with good grounds to appreciate how this technology can be used in many vital areas of life, mainly simulation. I am interested in exploring these areas. <br> I look forward to taking part in this society and trying to bring this technology into more mainstream use, and to help provide XR equipment to Leeds students. I feel as a body the society will be able to provide exciting opportunities to get involved with XR and I am happy to help provide this!"
-	},
-	{
 		"name": "Reece Jeanes",
 		"id": "reece-jeanes",
 		"photo": "/img/committee/reece-jeanes.jpg",
@@ -62,14 +54,6 @@
 		"role": "Events Rep",
 		"email": "events.leedsxrsociety@gmail.com",
 		"bio": "Hi everyone, I’m Eve Macdonald, 1st Year Fine Art and History of Art student and one of the Events Reps in Leeds XR Society. <br> I first got involved in XR in high school where I got to test and use an Oculus Rift head set for Fine Art and for Design Technology. This was amazing for me as I got to test and work with rapidly developing software. It also gave me the chance to see how widely applicable it was! <br> I also got to use haptic feedback pens while using 3D printing software like Rhino and understood it as a sculpting material, which grew very important in my practice as an artist. For my foundation show I virtually recreated museum space to hang my paintings in, but the technology I was using then has already developed so much! <br> I understand I've been very lucky to experience such things and would love others to get to try it too! <br> I look forward to working with everyone, I hope this society will provide fascinating and cutting-edge opportunities that are accessible to everyone!"
-	},
-	{
-		"name": "Boyan Karatotev",
-		"id": "boyan-karatotev",
-		"photo": "/img/committee/boyan-karatotev.png",
-		"role": "Events Rep",
-		"email": "events.leedsxrsociety@gmail.com",
-		"bio": "Hello everyone, my name is Boyan Karatotev, I am heading into my second year of Computer Science and I will be one of the Events Reps for the society. <br> I had the rare opportunity of going to a vocational school where I was faced with the task of finishing a project I didn't know how to start. I also met two wonderful people with the same task and VR headsets. So naturally, I got to dodge bullets like Neo. They made games in VR and I wrote voodoo code. While at it, I saw a lot of people learning amazing things with little to no help. By the end we had working projects and skills we wouldn't have dreamt of! <br> XR allows for unique experiences that I think everyone should get to have. And for those that are inspired by it I want to help make an environment where they can go after the knowledge they need. No matter if it's code, 3D modelling, art or something else I've seen many people do it so I want to share that with others."
 	},
 	{
 		"name": "Tomás Borges",
