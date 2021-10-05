@@ -17,9 +17,65 @@ organisations to collaborate, innovate and shape the future of Extended Reality.
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="msapplication-config" content="/favicon/browserconfig.xml">
         <meta name="theme-color" content="#ffffff">
+
+        <!-- RELAUCH STYLE CHANGES -->
+        <style>
+            html, body{
+                margin: 0;
+                padding: 0;
+                background: #000;
+            }
+
+            #bgvideo {
+                position: absolute;
+                height: 100vh;
+                width: 100vw;
+                z-index: -100;
+                left: 0;
+                top: 0;
+            }
+
+            @font-face {
+              font-family: xrFont;
+              src: url('/img/Monad.otf');
+            }
+
+            div#centerImg{
+                background-image: url('/img/Website-Relaunch.png');
+                background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size: contain;
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 60vh;
+                margin-top: calc((100vh - 60vh)/2);
+                width: 60vw;
+                margin-left: calc((100vw - 60vw)/2);
+
+                text-align: center;
+                color: white;
+                font-family: xrFont;
+            }
+
+            h1{
+                padding-top: 5%;
+            }
+            h2{
+                font-size: 2em;
+            }
+            h3{
+                font-size: 1.7em;
+            }
+        </style>
+        <!-- RELAUNCH STYLE CHANGES END -->
     </head>
     <body>
-		<img id="fb-img" src="img/logo.png"/>
+
+        <!--
+        ORIGINAL CODE
+
+        <img id="fb-img" src="img/logo.png"/>
         <div id="content">
           <div id="intro">
             <h2>Our Mission</h2>
@@ -73,10 +129,39 @@ organisations to collaborate, innovate and shape the future of Extended Reality.
               <div class="bar1"></div>
               <div class="bar2"></div>
               <div class="bar3"></div>
-            </div> 
+            </div>
         </div>
 
-        <script src="js/index.js"></script>
+    -->
+        <!-- RELAUNCH CHANGES -->
+        <video autoplay loop muted id="bgvideo">
+            <source src="/img/Comp_1_42.mp4">
+        </video>
+        <div id="centerImg">
+            <div id="centerText">
+                <h1>COMING SOON</h1>
+                <h2>LEEDS EXTENDED REALITY SOCIETY</h2>
+                <h3>THE RELAUNCH</h3>
+
+                <div id="social-media">
+                  <div onclick="window.open('https://www.facebook.com/leedsxrsociety/')" title="Facebook" class="social">
+                      <img src="img/facebook_logo.png"/>
+                  </div>
+                  <div onclick="window.open('https://www.linkedin.com/company/leedsxrsociety/')" title="Linkedin" class="social">
+                     <img src="img/linkedin_logo.png"/>
+                  </div>
+                  <div onclick="window.open('https://twitter.com/LeedsXRSociety')" title="Twitter" class="social">
+                     <img src="img/twitter_logo.png"/>
+                   </div>
+                  <div onclick="window.open('https://forms.gle/7QL5MYJ1DSqE9P9fA')" title="Mailing List" class="social">
+                     <img src="img/Mail.png"/>
+                   </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- RELAUCH CHANGES END -->
+        <!-- <script src="js/index.js"></script> -->
         <script src="js/topnav.js"></script>
     </body>
 </html>
