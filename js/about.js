@@ -49,13 +49,16 @@ function updateCommittee(committee){
 
     cont2.appendChild(name);
     cont2.appendChild(role);
+    //dodgy code!!!!
+    if(i == 2) cont2.innerHTML += "<br>";
+    //end dodgy code!!!
     cont2.appendChild(email);
     if(i < 2) cont2.appendChild(bio);
 
     cont.appendChild(photo);
     cont.appendChild(cont2);
 
-    cont.title = committee[i].name;   
+    cont.title = committee[i].name;
 
     cont.setAttribute('onclick', 'location.href="/committee/#' + committee[i].id + '"');
 

@@ -1,35 +1,43 @@
 [
 	{
-		"name": "Anna Goldson",
-		"id": "anna-goldson",
-		"photo": "/img/committee/anna-goldson.jpg",
+		"name": "Kate Hiley",
+		"id": "kate-hiley",
+		"photo": "/img/committee/kate-hiley.jpg",
 		"role": "President",
-		"email": "leedsxrsociety@gmail.com",
-		"bio": "My name is Anna Goldson, I’m a 2nd year Art and Design student from just North West of London. When I was about 8 years old, I used to imagine myself drawing in the air with a magical set of markers. Little did I know back then, that many years later this dream would come true, that I would be able to use applications such as Tilt Brush to draw in 3D! <br> Since the first time I experienced VR, I have known that this was the path for me. As Co-founder and President of the XR Society, my primary aim is to make immersive technology accessible to every student who wants to use and learn it – no matter the discipline or background they come from – and to create immersive experiences with a purpose. <br> As an art student I worried that my course would stop me from being able to use this technology (I can’t exactly code!), but I’ve realised it’s done quite the opposite and I cannot wait to learn more alongside other students. I really hope that everyone feels included and welcome to this society. I truly believe it has a place in the future of Leeds Uni and I encourage you to share us with the people around you!"
-	},
-	{
-		"name": "Mohamed Ismail",
-		"id": "mohamed-ismail",
-		"photo": "/img/committee/mohamed-ismail.jpg",
-		"role": "Vice-President",
-		"email": "leedsxrsociety@gmail.com",
-		"bio": "My journey to XR started last year during a 2-week SSP on ‘Advances in Medical Education’. One particular session focussed on the uses of VR and AR in Anatomy teaching and patient simulation for clinical education, which I felt was incredibly revolutionary and much cooler than the way we are taught now! <br> Fast forward a few months, and I am doing a project looking into the usage of Microsoft HoloLens in Stroke rehab, learning more about the work of our very own Centre for Immersive Technology that we’re so lucky to have in Leeds, and now setting up LUU XR Society! <br> I started reading about XR's uses in medicine, engineering, art, education and psychology. What became apparent is the lack of platforms within universities and on a national level to bring creative students from the various disciplines together, attract academics and engage with the Extended Reality industry in order to speed up the rate of development and implement well-constructed ideas… <br> The future of XR is a beautiful and awe-inspiring one, where the only limit is our collective imagination!"
-	},
-	{
-		"name": "Joseph De Marcillac",
-		"id": "joe-ddm",
-		"photo": "/img/committee/joe-ddm.png",
-		"role": "General Secretary",
-		"email": "gensec.leedsxrsociety@gmail.com",
-		"bio": "I first experienced VR when visiting an airshow 4 years ago and trying out a fighter pilot simulation using a headset and controllers. Such immersion into an experience that would usually only be accessible to genuine pilots with years of practice was incredible for me, and since then I've been following the field closely. As General Secretary I would relish the opportunity to help any students join in and experience this amazing technology, and hopefully spark some interest in those that have never been exposed to XR! <br> Being an Aerospace student, I would love to work with pilots and airline companies to provide a platform for aircraft simulation, and to collaborate on projects that members would be able to work on and potentially be sponsored for!"
+		"email": "president@leedsxrsociety.co.uk",
+		"bio": "Hi I’m Kate! I’m a 4th year Psychology student and President of Leeds XR Society. <br><br> My journey into XR is a recent one, last year I undertook a placement as a Research Assistant with the Centre for Immersive Technologies, Immersive Cognition Lab and Born in Bradford - Digital Makers. I am very passionate about digital inclusion and digital equity and over the last year as part of Digital Makers, I organised an event to introduce students to coding, computing and XR technology. <br><br> My experience with XR has been mainly experimentally, through assisting a member of the ICON lab with a self-experiment. We used an integrated VR-BCI system for hand motor imagery, using an Oculus-Rift S and it blew my mind about thinking about the potential of this technology! <br><br> I love how XR can break down barriers to research participation and creates excitement and engagement for both children and adults. As President I hope to bring XR in the student community more openly and into to the wider communities through outreach. I want to create an exciting and accessible platform for student experience and collaboration in immersive tech on campus!"
 	},
 	{
 		"name": "Oliver Cass",
 		"id": "oliver-cass",
 		"photo": "/img/committee/oliver-cass.png",
 		"role": "Treasurer",
-		"email": "treasurer.leedsxrsociety@gmail.com",
+		"email": "treasurer@leedsxrsociety.co.uk",
 		"bio": "I'm Oliver Cass, a 2nd Year Mechanical Engineering Student and Treasurer of Leeds XR Society. <br> My introduction to XR was many years ago when Google first released their Cardboards that allowed you to use VR from your phone. With a bit of tinkering I figured out how to play almost any game that could run on my laptop at the time (Minecraft) in VR. <br> I also messed around with making VR games and programs, however the durability of the Google Cardboard is about as good as you would expect from something with cardboard in the name... <br> Since then VR has come a long way, but unfortunately due to the price barriers involved in VR, I haven’t been able to see its full potential. My hopes for Leeds XR Soc, as treasurer, is to make Extended Reality devices more accessible, and get as many people using XR as possible!"
+	},
+	{
+		"name": "Omotola Omisakin",
+		"id": "omotola-omisakin",
+		"photo": "/img/committee/omotola-omisakin.jpg",
+		"role": "General Secretary",
+		"email": "gensec@leedsxrsociety.co.uk",
+		"bio": "Omotola here! I am the General Secretary for Leeds Extended Reality Society. <br><br> A little about me...  <br><br> I am a final year medical student. 🩺 <br><br> I believe that technology has the potential to affect a lot of industries for good. The possibilities are endless and the future is exciting. <br><br> One of the important goals we have here at Leeds XR is to create a community where innovation and collaboration is cultivated in order to shape the future of extended reality technology. <br><br> I am excited for all the things we will do this year. Hope to see you at one of our events in the new year! <br><br> Omotola <br> Gen. Sec."
+	},
+	{
+		"name": "Alexis Olubunmi-Oke",
+		"id": "alexis-olubunmi-oke",
+		"photo": "/img/committee/alexis-olubunmi-oke.jpg",
+		"role": "Engagement and Welfare Officer",
+		"email": "engagement@leedsxrsociety.co.uk",
+		"bio": "Hi, I’m Alexis Oke a 4th year Mechatronics and Robotics student and Welfare & Engagement Officer for Leeds XR society. <br><br> I only knew a bit about XR to begin with. However, I saw many Virtual Art Galleries and AR poster bulletins created for social movements last summer. I was amazed to see how the creative and collaborative applications of XR could bring people together, even in the midst of a global lockdown. <br><br> This year I would like to see more 3D content creation in LXRS. <br><br> Fun fact: Working at Unity!"
+	},
+	{
+		"name": "Leyla Woodroffe",
+		"id": "leyla-woodroffe",
+		"photo": "/img/committee/leyla-woodroffe.jpg",
+		"role": "Publicity Rep",
+		"email": "publicity@leedsxrsociety.co.uk",
+		"bio": "Hey my name is Leyla and I study Psychology here at the University of Leeds. I’m currently in my third year on placement working as a research and implementation assistant at Born in Bradford for the Digital Makers Project. The project aims to empower and provide students the opportunity to develop the confidence and skills to prosper in our increasingly digitalised society, bridging the digital divide. <br><br> I also work closely with the Centre for Immersive Technologies at the University of Leeds, which has since sparked my interest in virtual reality and its use in educational, cultural, health and wellbeing research- the endless possibilities are fascinating! <br><br> I hope our Extended Reality Society welcomes and engages a community who share a passion for XR or simply wish to learn more about its potentials, connecting students, schools and academics to create an inclusive platform that inspires all!"
 	},
 	{
 		"name": "Callum Methold",
@@ -38,45 +46,5 @@
 		"role": "Faculty Rep",
 		"email": "faculty.leedsxrsociety@gmail.com",
 		"bio": "Hey guys my name is Callum Methold, and I’m a 1st year computer science student and the Faculty Rep for the Leeds XR society. <br> I first experienced VR when I played Superhot, an FPS game where you have to complete levels by defeating all enemies, with the big twist being that time only moves when you move. Being immersed in fantasy worlds and simulations like this is such a unique experience and I would love to be able to work with it more and be able build on that experience. <br> Studying a field as diverse as computer science provides me with a fantastic opportunities to explore related fields and build on my knowledge that I have gained from my degree, and XR technologies is a fast emerging field and provides fantastic opportunities to learn and grow from it. <br> I was particularly keen on becoming the Faculty Rep as I like the interdisciplinary focus of this society – the idea that XR, and other technologies are something which should be accessible to all, not just those who study it; developing an interdisciplinary society seems like a fantastic opportunities for new learning experiences and friendships across faculties. <br> I’m really excited to start building up a team of Faculty Ambassadors to work with and help build up this society and its connections across the uni and within Leeds – I hope to see you there!"
-	},
-	{
-		"name": "Eve Macdonald",
-		"id": "eve-macdonald",
-		"photo": "/img/committee/eve-macdonald.jpg",
-		"role": "Events Rep",
-		"email": "events.leedsxrsociety@gmail.com",
-		"bio": "Hi everyone, I’m Eve Macdonald, 1st Year Fine Art and History of Art student and one of the Events Reps in Leeds XR Society. <br> I first got involved in XR in high school where I got to test and use an Oculus Rift head set for Fine Art and for Design Technology. This was amazing for me as I got to test and work with rapidly developing software. It also gave me the chance to see how widely applicable it was! <br> I also got to use haptic feedback pens while using 3D printing software like Rhino and understood it as a sculpting material, which grew very important in my practice as an artist. For my foundation show I virtually recreated museum space to hang my paintings in, but the technology I was using then has already developed so much! <br> I understand I've been very lucky to experience such things and would love others to get to try it too! <br> I look forward to working with everyone, I hope this society will provide fascinating and cutting-edge opportunities that are accessible to everyone!"
-	},
-	{
-		"name": "Tomás Borges",
-		"id": "tomas-borges",
-		"photo": "/img/committee/tomas-borges.jpg",
-		"role": "Events Rep",
-		"email": "events.leedsxrsociety@gmail.com",
-		"bio": "Hi everyone, I’m Tomás Borges, a 1st year Computer Science student and one of the Events Reps in Leeds XR Society. <br> My introduction to XR was back in 2013 when Google presented the Google Glass, one of the very first attempts to bring XR to the public. Since then, I’ve always kept an eye on what was being done and on the accessibility of the technology. XR brings a new form of human-machine interaction, and therefore new possibilities to what we can do and how we interact with each other. <br> As part of the Events Rep team, I look forward to give students access to XR equipment and the possibility to learn how to develop products with it. Thus, I hope to bring a set of events that allows a range of people from different disciplines to see this society as a platform to develop their ideas and to solve their challenges. <br> I’m excited to what we’ll bring next year, democratising XR and contributing to the development of the technology!"
-	},
-	{
-		"name": "Corina Gunawidjaja",
-		"id": "corina-gunawidjaja",
-		"photo": "/img/committee/corina-gunawidjaja.jpg",
-		"role": "Graphic Design Rep",
-		"email": "publicity.leedsxrsociety@gmail.com",
-		"bio": "Hi everyone! I'm Corina Gunawidjaja, a second-year digital media student currently on placement, and I'll be one of the graphic design reps for the society. <br> My first encounter with XR was back at an open day a few years ago, where I had the opportunity to mess around in TiltBrush to create designs in a virtual 3D space. Being fully immersed in the virtual environment was such a fun and unique experience, and allowed me to explore art in a completely new perspective. Ever since then, I've always been interested as to how the technology can transform the way we learn, live, communicate and connect with others around the world. With the technology becoming increasingly popular, it's exciting to see how it'll be implemented in more mainstream applications in the future. <br> Although I haven't had much experience in XR due to its high price point, I've learnt enough from my degree to understand its full potential to cause a monumental shift across many industries in the coming years. <br> One of the main things that drew me into society is its determination to make these technologies accessible to everyone. It's an inclusive community for students from all disciplines to come together and enjoy the rapidly growing field of XR. As the graphic design rep, I can't wait to be promoting opportunities for students across Leeds to learn and experience more about this exciting technology first hand!"
-	},
-	{
-		"name": "Katie Goodfellow",
-		"id": "katie-goodfellow",
-		"photo": "/img/committee/katie-goodfellow.jpg",
-		"role": "Social Media Rep",
-		"email": "publicity.leedsxrsociety@gmail.com",
-		"bio": "Hi guys! I’m Katie Goodfellow, and I'm coming into my third year studying Film, Photography and Media and I am the social media rep for the society! <br> I haven’t had much experience with XR and that’s why I wanted to join this society as I’ve always thought it was very interesting. The new way to view experiences through the use of XR is very exciting, and now it’s developing more than ever. My favourite use of XR is the amazing artwork that talented people are able to produce. <br> In the future I am sure it will be an integral part in most industry and it’ll become an extremely common application within society and the world of work. <br> What’s exciting about this society, and one of the reasons why I joined it, is because they want to make this technology available for everyone to use. It’s an extremely friendly and helpful community to be in and as the social media rep I want to make this society known so as many people as possible can access and experience XR!"
-	},
-	{
-		"name": "Tali Sen",
-		"id": "tali-sen",
-		"photo": "/img/committee/tali-sen.jpg",
-		"role": "Project Coordinator",
-		"email": "projects.leedsxrsociety@gmail.com",
-		"bio": "Hello! My name's Tali and I'm a second year Computer Science student. I'm excited to announce that this year, I'm going to be the Project Coordinator for the society. <br> I was first introduced to VR two years ago when I visited a university careers fair. I tried out a prototype VR headset from Sony that showed us a football stadium. It was such a surreal experience, feeling like I was actually right there in the stadium and watching a game. I don't even really like football but this unique experience somehow made it amazing! <br> I think VR provides us with many exciting opportunities for the future, paving the way for a new and super immersive entertainment and educational experiences. Since I haven't had very many VR experiences, I'd love to learn more about it. That is why I'm so glad to be a part of this amazing new society where we can do that. <br> As Project Coordinator, I will have this fantastic opportunity to work with you all and help you pursue your XR dreams through a variety of projects and industrial opportunities. <br> Can't wait to work with the rest of the committee to share these opportunities with you all this year!"
 	}
 ]
