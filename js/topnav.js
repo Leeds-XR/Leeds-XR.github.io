@@ -4,28 +4,16 @@ Leeds XR (c) 2020
 All Rights Reserved
 */
 
-/*
-relaunch code
-START
-*/
-if(location.pathname != "/"){
-    location.href = "/";
-}
-/*
-END
-*/
-
-/*
 var topNav = document.getElementById('header');
 var topNavLinks = document.getElementById('topnav-links');
 
-window.onscroll = function () {
+window.onscroll = function () { 
     "use strict";
     if(location.pathname != "/") return;
     if ((document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80)) {
         topNav.classList.remove("transparent");
         topNavLinks.classList.remove("transparent");
-    }
+    } 
     else {
         topNav.classList.add("transparent");
         topNavLinks.classList.add("transparent");
@@ -61,7 +49,7 @@ function topnav(){
     	if (document.body.scrollTop >= 80 || document.documentElement.scrollTop >= 80 ) {
 			topNav.classList.remove("transparent");
             topNavLinks.classList.remove("transparent");
-		}
+		} 
 		else {
 			topNav.classList.add("transparent");
             topNavLinks.classList.add("transparent");
@@ -72,7 +60,7 @@ function topnav(){
     	topNav.classList.remove("transparent");
         topNavLinks.classList.remove("transparent");
         return;
-    }
+    }    
 }
 
 if(check_topnav()) set_topnav();
@@ -81,5 +69,3 @@ window.onresize = function(){
     if(check_topnav()) set_topnav();
     else unset_topnav();
 }
-
-*/
