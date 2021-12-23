@@ -8,6 +8,7 @@ div#content{
     text-align: center;
     padding: 150px 20px 0;
     font-family: 'Montserrat';
+    color: white;
 }
 div#content h1{
     font-size: 3em;
@@ -15,7 +16,7 @@ div#content h1{
 }
 div#cont{
     padding: 0 2vw 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 form#contact{
@@ -53,7 +54,7 @@ fieldset{
 }
 
 input[type=submit] {
-  background-color: #b4b4b4;
+  background-color: #5f9c4b8c;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -63,7 +64,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #4b4b4b;
+  background-color: #5f9c4b;
 }
 
 /*

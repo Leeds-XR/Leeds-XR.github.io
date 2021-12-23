@@ -8,6 +8,7 @@ div#content{
     text-align: center;
     padding: 150px 20px 0;
     font-family: 'Montserrat';
+    color: white;
 }
 div#content h1{
     font-size: 3em;
@@ -15,16 +16,20 @@ div#content h1{
 }
 div#committee{
     padding: 0 2vw 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 div.member{
     display: inline-block;
     width: 100%;
     margin: 0.5vw;
-    background-color: #eee;
+    background-color: #5f9c4b8c;
     text-align: left;
     padding: 10px;
+    transition: background-color 0.5s;
+}
+div.member:hover{
+    background-color: #5f9c4b;
 }
 div.member a{
     display: block;

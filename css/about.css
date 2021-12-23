@@ -7,6 +7,7 @@ All Rights Reserved
 div#content{
     text-align: center;
     padding: 150px 20px 0;
+    color: white;
 }
 div#about{
     font-family: 'Montserrat';
@@ -24,20 +25,23 @@ p#about-txt{
 
 div#committee{
     padding: 0 2vw 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 div.member{
     display: inline-block;
     width: 20vw;
     margin: 0.5vw;
-    background-color: #eee;
+    background-color: #5f9c4b8c;
     text-align: left;
     padding: 10px;
     cursor: pointer;
     transition: background-color 0.5s;
 }
+div.member br{
+	display: none;
+}
 div.member:hover{
-	background-color: #c8c8c8;
+    background-color: #5f9c4b;
 }
 div.member a.name{
 	font-size: 1.4em;
@@ -128,11 +132,15 @@ Phones
     	font-size: 1em;
 
     }
+    div.member br{
+		display: initial;
+	}
     div.member.priority a.name{
         font-size: 1.8em;
     }
     div.member a.role{
     	font-size: 1em;
+    	/* float: left; */
     }
     div.member a.email{
     	font-size: 0.6em;

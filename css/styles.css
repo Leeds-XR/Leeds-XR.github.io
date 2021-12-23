@@ -9,7 +9,7 @@ html, body{
     margin: 0;
     overflow-x: hidden;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #3c3161;
 }
 body{
 	overflow: hidden;
@@ -36,13 +36,13 @@ div#header{
     font-weight: 700;
     transition: color 0.4s;
     opacity: 1;
-    color: black;
+    color: white;
 }
 div#header.transparent{
 	color: white;
 }
 div#header div#hbg{
-	background-color: white;
+	background-color: #9628cf;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -78,7 +78,7 @@ div#topnav-links{
 div#topnav-links a{
     text-decoration: none;
     margin: 40px;
-    color: #343434;
+    color: #ffffff;
 }
 div#topnav-links a:hover{
 	color: black;
@@ -178,7 +178,8 @@ div#blog{
 	text-align: center;
 	font-family: 'Montserrat';
 	font-size: 1.5em;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid white;
+	color: white;
 
 }
 div#blog div.blog{
@@ -186,7 +187,7 @@ div#blog div.blog{
 	width: 43vw;
 	margin: 1vw;
 	height: 25vw;
-	background-color: #bababa38;
+	background-color: #5f9c4b8c;
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: contain;
@@ -197,7 +198,7 @@ div#blog div.blog.url{
 div#blog div.blog div.inner{
 	width: calc(100% - 40px);
 	height: calc(100% - 40px);
-	background-color: #000000f2;
+	background-color: #28461f;
 	color: white;
 	opacity: 0;
 	overflow: hidden;
@@ -211,18 +212,21 @@ div.inner p.description{
 	font-size: 0.6em;
 	text-align:  left;
 }
-div.inner p.description a:visited{
-	color: blue;
+a:link{
+	color: #ffffff;
+}
+a:visited{
+	color: #7E54D9;
 }
 a.date{
 	display: block;
 }
 a#see-all{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 a#see-all:hover{
-	color: #848484;
+	color: #7E54D9;
 }
 
 /*footer*/
@@ -230,6 +234,7 @@ div#footer{
 	text-align: center;
 	font-family: 'Montserrat';
 	margin-top: 20px;
+	color: white;
 }
 div#footer div{
 	display: block;
@@ -237,10 +242,10 @@ div#footer div{
 }
 a.f-link{
 	margin: 15px;
-	color: #676767;
+	color: #ffffff;
 }
 a.f-link:hover{
-	color: black;
+	color: #7E54D9;
 }
 
 /*Small Laptop*/
@@ -251,9 +256,9 @@ a.f-link:hover{
     }
     div#topnav-links{
     	display: block;
-        position: fixed;
-        top: 150px;
-    	background-color: #3b3b3b;
+    	position: fixed;
+    	top: 150px;
+    	background-color: #3c3161;
     	width: 100%;
     	height: 0;
     	overflow: hidden;
@@ -265,7 +270,7 @@ a.f-link:hover{
 		color: white !important;
 	}
 	div#topnav-links a:hover{
-        color: #c5c5c5;
+        color: #3c3161;
     }
 
 	img#bar{
@@ -302,8 +307,8 @@ Phones
         background-size: 355vw;
         background-position: -750px -50px;
         height: 0vh;
-		min-height: initial;
-        color: black;
+        min-height: initial;
+        color: white;
     }
     div#intro h1{
     	position: absolute;
