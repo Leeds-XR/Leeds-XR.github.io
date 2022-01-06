@@ -64,6 +64,7 @@ div#topnav-logo-cont{
 	text-align: center;
 	font-size: 1.5em;
 	cursor: pointer;
+    white-space: nowrap;
 }
 div#topnav-logo-cont img{
 	height: 100%;
@@ -313,7 +314,7 @@ Phones
     div#intro h1{
     	position: absolute;
     	bottom: -30px;
-    	
+
     	max-width: 100%;
     	margin-bottom: 50px;
     }
@@ -378,7 +379,7 @@ Phones
 }
 
 @media only screen and (max-width: 319px){
-	
+
 }
 
 /*
