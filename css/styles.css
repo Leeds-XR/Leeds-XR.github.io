@@ -164,6 +164,7 @@ div#social-media div{
 }
 div#social-media img{
 	width: 100%;
+    border-radius: 50%;
 }
 
 /*content*/
